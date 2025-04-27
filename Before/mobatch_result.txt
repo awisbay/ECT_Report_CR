@@ -1,0 +1,44 @@
+
+Full command = /opt/ericsson/amos/moshell/mobatch sites_list.txt command_mos.txt LOG/
+Sitefile = sites_list.txt. Number of sites = 8
+Command file = command_mos.txt
+Timeout set to 30 minutes (default value)
+Wait interval set to 2.5 seconds
+Maximum number of parallel processes set to 10 (default value)
+
+Logfiles stored in LOG/
+
+###########################################################################################
+>>>>> STARTED (pid)
+** FINISHED (result)              STATUS (started, finished, queue, running, sites running)
+###########################################################################################
+>>>>> CNT0032L_6NB06 (7257)        1s  0f  7q  1r: CNT0032L_6NB06 
+>>>>> CNT0032P_9NB01 (7261)        2s  0f  6q  2r: CNT0032L_6NB06 CNT0032P_9NB01 
+>>>>> CNT0032Q_9NB04 (7271)        3s  0f  5q  3r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 
+>>>>> CNT0032T_2NB02 (7309)        4s  0f  4q  4r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 CNT0032T_2NB02 
+>>>>> CNT0032X_2NB05 (7385)        5s  0f  3q  5r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 CNT0032T_2NB02 CNT0032X_2NB05 
+>>>>> CNT0126P_9NB02 (7436)        6s  0f  2q  6r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 
+>>>>> CNT0126Q_9NB01 (7532)        7s  0f  1q  7r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 CNT0126Q_9NB01 
+>>>>> CNT0126X_2NB03 (7602)        8s  0f  0q  8r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 CNT0126Q_9NB01 CNT0126X_2NB03 
+** CNT0126Q_9NB01 (OK)             8s  1f  0q  7r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032Q_9NB04 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 CNT0126X_2NB03 
+** CNT0032Q_9NB04 (OK)             8s  2f  0q  6r: CNT0032L_6NB06 CNT0032P_9NB01 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 CNT0126X_2NB03 
+** CNT0032P_9NB01 (OK)             8s  3f  0q  5r: CNT0032L_6NB06 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 CNT0126X_2NB03 
+** CNT0126X_2NB03 (OK)             8s  4f  0q  4r: CNT0032L_6NB06 CNT0032T_2NB02 CNT0032X_2NB05 CNT0126P_9NB02 
+** CNT0126P_9NB02 (OK)             8s  5f  0q  3r: CNT0032L_6NB06 CNT0032T_2NB02 CNT0032X_2NB05 
+** CNT0032L_6NB06 (OK)             8s  6f  0q  2r: CNT0032T_2NB02 CNT0032X_2NB05 
+** CNT0032X_2NB05 (OK)             8s  7f  0q  1r: CNT0032T_2NB02 
+** CNT0032T_2NB02 (OK)             8s  8f  0q  0r: 
+###########################################################################################
+
+OK            0m53s   CNT0032L_6NB06
+OK            0m36s   CNT0032P_9NB01
+OK            0m31s   CNT0032Q_9NB04
+OK            1m7s    CNT0032T_2NB02
+OK            1m5s    CNT0032X_2NB05
+OK            0m42s   CNT0126P_9NB02
+OK            0m30s   CNT0126Q_9NB01
+OK            0m40s   CNT0126X_2NB03
+
+Total mobatch duration: 1m8s
+Average duration per site with status OK: 0m45s
+Logfiles stored in LOG/

@@ -1,0 +1,2652 @@
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4"
+acBarringForCsfb : {acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64}
+acBarringForEmergency : false
+acBarringForMoData : {acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64}
+acBarringForMoSignalling : {acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64}
+acBarringInfoPresent : false
+acBarringPlmnPabEnabled : false
+acBarringPresence : {acBarringForCsfbPresence=OFF, acBarringForEmergencySpecAcPres=MANUAL, acBarringForMmtelVideoPresence=OFF, acBarringForMmtelVoicePresence=OFF, acBarringForMoDataPresence=OFF, acBarringForMoSignPresence=OFF, acBarringPrioCsfbSpecAc=[PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4], acBarringPrioEmergencySpecAc=PRIORITY0, acBarringPrioMmtelVideoSpecAc=[PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4], acBarringPrioMmtelVoiceSpecAc=[PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4], acBarringPrioMoDataSpecAc=[PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4], acBarringPrioMoSignalingSpecAc=[PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4, PRIORITY4], acBarringPriorityCsfb=PRIORITY0, acBarringPriorityMmtelVideo=PRIORITY0, acBarringPriorityMmtelVoice=PRIORITY0, acBarringPriorityMoData=PRIORITY0, acBarringPriorityMoSignaling=PRIORITY0}
+acBarringSkipForMmtelVideo : false
+acBarringSkipForMmtelVoice : false
+acBarringSkipForSms : false
+activePlmnList : [{mcc=510, mnc=11, mncLength=2}]
+activeServiceAreaId : <empty>
+adaptiveCfiHoProhibit : NO_HO_PROHIBIT_CFI
+additionalFreqBandList : <empty>
+additionalMultipleNSPmax : <empty>
+additionalPlmnAlarmSupprList : [false, false, false, false, false]
+additionalPlmnList : [{mcc=1, mnc=1, mncLength=2}, {mcc=1, mnc=1, mncLength=2}, {mcc=1, mnc=1, mncLength=2}, {mcc=1, mnc=1, mncLength=2}, {mcc=1, mnc=1, mncLength=2}]
+additionalPlmnReservedList : [false, false, false, false, false]
+additionalSpectrumEmissionValues : <empty>
+additionalUpperLayerIndList : [OFF, OFF, OFF, OFF, OFF]
+adjustCrsPowerEnhEnabled : false
+administrativeState : UNLOCKED
+advCellSupAction : CELL_RESTART
+advCellSupSensitivity : 50
+aiAdvCellSupAction : NO_ACTION
+aiAdvCellSupAdjustMimoSleep : true
+aiAdvCellSupMode : OFF
+ailgActive : false
+ailgAutoRestartEnabled : false
+ailgRef : <empty>
+allocThrPucchFormat1 : 50
+allocTimerPucchFormat1 : 50
+alpha : 10
+altitude : 0
+arpPriorityLevelForSPIFHo : [false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false]
+assumedUePowerMsg3 : 1000
+availabilityStatus : [DEPENDENCY_FAILED]
+bcCdma2000SysTimeType : NONE
+beamWeightSet16Tr : 0
+beamWeightSet16TrTm9 : 0
+blerTargetConfigEnabled : true
+bsrThreshold : 200
+caPrioThreshold : 300
+catm1SupportEnabled : false
+catmEnhMpdcchCapEnabled : true
+catmMbmsDlSubframes : 0
+cceDynUeAdmCtrlOverloadThr : 600
+cceDynUeAdmCtrlPaOverloadThr : 1000
+cceDynUeAdmCtrlRetDiffThr : 500
+cellBarred : NOT_BARRED
+cellCapMaxCellSubCap : 100000
+cellCapMinCellSubCap : 1000
+cellCapMinMaxWriProt : true
+cellDefinedPrimaryPlmnId : <empty>
+cellDownlinkCaCapacity : 1000
+cellId : 4
+cellRange : 15
+cellSubscriptionCapacity : 25000
+cfraEnable : true
+changeNotification : {changeNotificationSIB1=true, changeNotificationSIB13=true, changeNotificationSIB15=true, changeNotificationSIB16=true, changeNotificationSIB2=true, changeNotificationSIB24=true, changeNotificationSIB3=true, changeNotificationSIB4=true, changeNotificationSIB5=true, changeNotificationSIB6=true, changeNotificationSIB7=true, changeNotificationSIB8=true}
+channelSelectionSetSize : 2
+cioLowerLimitAdjBySon : -3
+cioUpperLimitAdjBySon : 4
+clusteredPuschMprFactor : 100
+commonCqiPeriodicity : 40
+commonSrPeriodicity : 10
+confidence : 100
+covTrigMobErabSetupConfig : DISABLED
+covTriggerdBlindHoAllowed : false
+covTriggerdBlindHoAllowedBr : true
+crsGain : 0
+csiRsConfigType : NZP_CSIRS
+csiRsConfigType8TxFDD : NZP_CSIRS
+dataInactTimerBr : {dataInactTimerBrCe0=0, dataInactTimerBrCe1=0}
+deallocThrPucchFormat1 : 80
+deallocTimerPucchFormat1 : 4000
+decoupledPdcchLaEnabled : false
+dedicatedMpdcchCss2Br : false
+diffAdmCtrlFilteringProfRef : <empty>
+diffPdcchMaxTargetBlerEnabled : true
+diffPdcchMaxTargetBlerThres : -10
+distributedEssInvalidSfDlBr : 0
+dl256QamEnabled : true
+dlBlerTargetEnabled : true
+dlCatmEssShare : 1000
+dlCatmEssShareSrb0 : 60
+dlCchAndRefSigBlockActive : false
+dlCchAndRefSigBoost : false
+dlChannelBandwidth : 20000
+dlConfigurableFrequencyStart : 0
+dlDynUeAdmCtrlOverloadThr : 600
+dlDynUeAdmCtrlPaOverloadThr : 1000
+dlDynUeAdmCtrlRetDiffThr : 500
+dlFrequencyAllocationProportion : 100
+dlInterferenceManagementActive : true
+dlInterferenceManagementDuration : 100
+dlInternalChannelBandwidth : 0
+dlInternalChannelFreqBias : FBT_LOWER
+dlMaxRetxRrcReleaseThr : 2
+dlPowerChangeRate : 1
+dlPowerRampUpInitRatio : 100
+dlPowerRampUpRate : 1
+dlPowerRatio : 100
+dlPowerState : INVALID
+dlVolteCovMobDetect : DISABLED
+dlVolteCovMobThrHigh : 6
+dlVolteCovMobThrLow : 4
+dlVolteCovMobWindowLen : 10
+dominQciFilter : -1
+drxActive : false
+drxActiveBr : CE_LEVEL_0
+dsrTransMax : 32
+dummyCdmaBandClass : UNDEFINED_VALUE
+dynLoadCtrlMinNewConn : 1
+dynUeAdmCtrlEnabled : false
+dynUeAdmCtrlFilterConst : 3000
+dynUlResourceAllocEnabled : false
+eCallOverImsSupport : false
+eDrxAllowed : false
+eDrxUeType : LTE_CATM
+eUlFssSwitchThresh : 20
+eUtranCellFDDId : "BD4G18_451C330E_4"
+eabConfProfileBrRef : <empty>
+eabPresenceBr : OFF
+eabThreshRejRateCatmHighBr : 10
+eabThreshRejRateCatmLowBr : 5
+eabThreshRejRateLteHighBr : 10
+eabThreshRejRateLteLowBr : 5
+eabThreshTimeHigh : 120
+eabThreshTimeLow : 120
+earfcndl : 1313
+earfcnul : 19313
+elcEnabled : false
+elcLongDrxCycle : SF40
+emergencyAreaId : [-1, -1, -1, -1]
+enableDrxAwareRlcArq : false
+enableServiceSpecificHARQ : true
+enableSinrUplinkClpc : true
+enableUeAssistedAdaptiveDrx : true
+enableUeAssistedSigReduction : true
+endcAllowedPlmnList : <empty>
+endcB1MeasGapConfig : ENABLED
+endcDistrProfileRef : <empty>
+endcSetupDlPktAgeThr : 0
+endcSetupDlPktVolThr : 0
+endcSetupUlBsVolThr : 0
+enhVolteOptimizedCa : false
+eranUlCompUserSelSinrHys : 10
+eranUlCompUserSelSinrThr : 150
+estCellCapUsableFraction : 100
+estimatedE2ERTT : 30
+eutranCellCoverage : {posCellBearing=-1, posCellOpeningAngle=-1, posCellRadius=0}
+eutranCellPolygon : <empty>
+expectedMaxNoOfUsersInCell : -1
+extGUtranCellRef : <empty>
+frameStartOffset : {subFrameOffset=0}
+freqBand : 3
+gpsTimeSFN0DecimalSecond : 0
+gpsTimeSFN0Seconds : 0
+harqOffsetDl : 3
+harqOffsetUl : 3
+highBasebandPriority : false
+highSpeedUEActive : false
+highestSupportedCeLevelBr : 0
+hoOptAdjThresholdAbs : 2
+hoOptAdjThresholdAbsQci1 : 5
+hoOptAdjThresholdPerc : 20
+hoOptAdjThresholdPercQci1 : 50
+hoOptStatNum : 100
+hoOptStatNumQci1 : 200
+hoOptStatTime : 2
+hostingDigitalUnit : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,Equipment=1,FieldReplaceableUnit=1"
+hpueCaSwitchHyst : 20
+hpueCaSwitchThres : -150
+hpueCaSwitchTimeToTrigger : 40
+idleModePrioAtReleaseRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,LoadBalancingFunction=1,IdleModePrioAtRelease=1"
+iflbAbEnabled : false
+includeDynPttMsrReservations : false
+includeLcgInMacUeThp : [false, false, true, true]
+initCdma2000SysTimeType : NONE
+initialBufferSizeDefault : 86
+initialBufferSizeMsg5Default : 86
+instantDl256QamMode : DYNAMIC_HOM_MODE
+interEnbUlCompUserSelSinrHys : 10
+interEnbUlCompUserSelSinrThr : 100
+interFreqHoHigherPrioEnabled : false
+interFreqHoHigherPrioEndc : true
+interFreqHoHigherPrioRre : true
+interFreqHoHigherPrioSnRel : false
+interferenceThresholdSinrClpc : -110
+ipecGseEnabled : true
+isDlOnly : false
+lastModification : OPERATOR
+lastSchedLinkAdaptEnabled : false
+latencyLongThreshold : 135
+latitude : -6044371
+lbActionForEndcUe : ENDC_CAPABLE_NOT_CONFIGURED
+lbEUtranAcceptOffloadThreshold : 50
+lbEUtranCellOffloadCapacity : 1000
+lbEUtranTriggerOffloadThreshold : 100
+lbTpNonQualFraction : 35
+lbTpRankThreshMin : -20
+lbUlHeavyUeDetectEnabled : false
+lbUtranOffloadThreshold : 100
+lbabBarringPriorityLevel : PRIORITY0
+lbabDecr : 5
+lbabIncr : 5
+lbabMinBarringFactor : 0
+lbabMinBarringFactorPrio1 : 0
+lbabMinBarringFactorPrio2 : 0
+lbabMinBarringFactorPrio3 : 0
+lbabMinBarringFactorPrio4 : 0
+lbabPeriod : 120
+lbabThreshRejectRateHigh : 200
+lbabThreshRejectRateLow : 20
+lbabThreshTimeHigh : 30
+lbabThreshTimeLow : 30
+lbdarCoverageThreshold : 15
+lessPrbUsageThreshold : 90
+liteMcsReduction : ON
+loadBasedBarringFactor : 100
+loadBasedCaEnabled : false
+loadBasedCaMsrThr : {cceUtilThreshHigh=40, cceUtilThreshLow=20, dlPrbUtilThreshHigh=30, dlPrbUtilThreshLow=20, dlSeUtilThreshHigh=60, dlSeUtilThreshLow=40, ulPrbUtilThreshHigh=30, ulPrbUtilThreshLow=25, ulSeUtilThreshHigh=30, ulSeUtilThreshLow=20}
+loadCtrlPrioOfMta : false
+longitude : 107131280
+loopingEndcBackoffDuration : 100
+loopingEndcConsecFailThr : 5
+loopingEndcProtectionEnabled : false
+loopingEndcShortScgSessTime : 1500
+macContResTimerCe0Br : SF480
+macContResTimerCe1Br : SF480
+mappingInfo : {mappingInfoSIB10=MAPPED_SI_1, mappingInfoSIB11=NOT_MAPPED, mappingInfoSIB12=NOT_MAPPED, mappingInfoSIB13=NOT_MAPPED, mappingInfoSIB15=NOT_MAPPED, mappingInfoSIB16=NOT_MAPPED, mappingInfoSIB24=NOT_MAPPED, mappingInfoSIB3=MAPPED_SI_1, mappingInfoSIB4=NOT_MAPPED, mappingInfoSIB5=NOT_MAPPED, mappingInfoSIB6=NOT_MAPPED, mappingInfoSIB7=NOT_MAPPED, mappingInfoSIB8=NOT_MAPPED}
+mappingInfoCe : {mappingInfoSIB10=NOT_MAPPED, mappingInfoSIB11=NOT_MAPPED, mappingInfoSIB12=NOT_MAPPED, mappingInfoSIB13=NOT_MAPPED, mappingInfoSIB14=NOT_MAPPED, mappingInfoSIB15=NOT_MAPPED, mappingInfoSIB16=NOT_MAPPED, mappingInfoSIB3=NOT_MAPPED, mappingInfoSIB4=NOT_MAPPED, mappingInfoSIB5=NOT_MAPPED, mappingInfoSIB6=NOT_MAPPED, mappingInfoSIB7=NOT_MAPPED, mappingInfoSIB8=NOT_MAPPED}
+maxHarqMsg3Tx : 4
+maxNoClusteredPuschAlloc : 0
+maxNumPreambleAttemptCe0Br : N3
+maxRrcConnectedUsersBr : 128
+maxSentCrsAssistCells : 8
+maxSoftLockBackoffTime : 90
+maxValidSubframeDlBr : 100
+mbsfnSubframesForTm9 : DISABLED
+measBasedElcControl : false
+measCellGroupCellRef : <empty>
+measCellGroupUeRef : <empty>
+measGapPattEndc : 1
+measGapPattern : 1
+measGapShareSchemeCeABr : SCHEME_ZERO
+mfbiFreqBandIndPrio : false
+minBestCellHoAttempts : 1
+minIntensityLimitForLbab : 50
+minInterfSchedEnabled : false
+minInterfUlRegionSize : 0
+moVoiceDynUeAdmCtrlPrio : false
+mobCtrlAtPoorCovActive : true
+modificationPeriodCoeff : 2
+mpdcchCss2MaxNumRepCe1Br : 8
+mpdcchNumRepetitionCeLev0 : 8
+msg2PdschRepCe1Br : 16
+msg3FrequencyAllocationBr : 1
+msg4PdschRepCe1Br : 16
+multipleNSPmaxReqMapping : <empty>
+nRResCoordPattern : DEFAULT
+networkSignallingValue : NS_31
+networkSignallingValueCa : CA_NS_31
+noConsecutiveSubframes : SF4
+noOfCbraPreambles : 52
+noOfChannelSelectionSets : 4
+noOfCrsPorts : -1
+noOfEnhAdptReTxCand : 5
+noOfMpdcchCss2Br : 1
+noOfMpdcchUessBr : 1
+noOfOuterZoneSrPrbPairs : 2
+noOfPreamblesCeLvl0Br : 4
+noOfPreamblesCeLvl1Br : 4
+noOfPucchCqiUsers : 640
+noOfPucchCqiUsersCalc : 640
+noOfPucchFormat1PrbPairsPerFrameConf : 2
+noOfPucchFormat2PrbPairsPerFrameConf : 1
+noOfPucchFormat3PrbPairs : 1
+noOfPucchSrUsers : 600
+noOfPucchSrUsersCalc : 0
+noOfPuschNbBr : 2
+noOfUlImprovedUe : 5
+nrMeasRepBlockedDuringHo : false
+nrMobilityTriggerQciRef : <empty>
+nrOfPreallocatedSrRes : -1
+nrOfTransmissionsSib1 : 4
+ns05FullBandSchedEnabled : false
+ns05FullBandUsersInCellThres : 10
+ns05LowBandSchedMode : ALWAYS_PROHIBIT
+ns05PathlossOffsetThres : 50
+operationalState : DISABLED
+optimizedPdcchCceUtilThres : 0
+optimizedPdcchCongestThres : 20
+optimizedPdcchDlPrbThres : 100
+optimizedPdcchMaxTargetBler : 200
+optimizedPdcchUlPrbThres : 100
+orientMajorAxis : 0
+otdoaCheckEnabled : false
+otdoaSuplActive : false
+outOfCoverageDepth : 1
+outOfCoverageSparseGrantingBsr : 4
+outOfCoverageSrTimerPeriodicity : 320
+outOfCoverageThreshold : 20
+p0ClpcExBadEnabled : false
+p0ClpcExBadSinrThr : -10
+p0ClpcExGoodEnabled : false
+p0ClpcExGoodSinrOffset256Qam : 0
+p0ClpcExGoodSinrOffset64Qam : 0
+p0ClpcExGoodSinrThr : 21
+pMaxServingCell : 1000
+pZeroNominalPucch : -117
+pZeroNominalPusch : -103
+pZeroOffsetUlCa : 255
+pa : DB_0
+paConnCellUeReservations : 1
+pagingPriorityDiffThr : OFF
+pagingPriorityOverloadThr : OFF
+pb : 0
+pciConflict : <empty>
+pciConflictCell : <empty>
+pciConflictUtvmEcgiMeas : true
+pciDetectingCell : <empty>
+pdcchCfiMode : CFI_AUTO_MAXIMUM_3
+pdcchCongCtrlParamEnabled : false
+pdcchCongestMeasurePeriod : 1
+pdcchCovImproveDtx : true
+pdcchCovImproveQci1 : false
+pdcchCovImproveSrb : true
+pdcchFlexibleBlerEnabled : true
+pdcchLaGinrMargin : 60
+pdcchMaxTargetBlerHigh : 400
+pdcchMaxTargetBlerLow : 240
+pdcchOutLoopInitAdjCong : -70
+pdcchOutLoopInitAdjPCellCong : -70
+pdcchOuterLoopInitialAdj : -70
+pdcchOuterLoopInitialAdjPCell : -70
+pdcchOuterLoopInitialAdjVolte : -70
+pdcchOuterLoopUpStep : 8
+pdcchOuterLoopUpStepPCell : 6
+pdcchOuterLoopUpStepVolte : 6
+pdcchPowerBoostMax : 3
+pdcchPowerBoostMaxCong : 0
+pdcchTargetBler : 24
+pdcchTargetBlerAdjStep : 5
+pdcchTargetBlerPCell : 22
+pdcchTargetBlerVolte : 6
+pdcchUlDtxWorseThres : 10
+pdschMaxNrOfPrbsPerUe : 100
+pdschTypeBGain : 0
+peUeToInterCellPreHyst : 10
+peUeToInterCellPreThrUnreg : 10
+physicalLayerCellId : 31
+physicalLayerCellIdGroup : 10
+physicalLayerSubCellId : 1
+pimAggressorCellId : <empty>
+pimAggressorENodeBId : <empty>
+pimAvoidManualConfigEnabled : false
+pimAvoidPeriodicPauseEnabled : false
+pimAvoidanceControllerEnabled : false
+pimAvoidanceModeStatus : <empty>
+pimManualConfigCoefficient : 2
+pimMinPrbReservedProportion : 10
+pimPowerExcessReference : 30
+pimVictimCellId : <empty>
+pimVictimENodeBId : <empty>
+plmn1AbConfProfileRef : <empty>
+plmn2AbConfProfileRef : <empty>
+plmn3AbConfProfileRef : <empty>
+plmnPabBarringPriorityLevel : PRIORITY0
+prachConfigurationIndex : 5
+prachFreqSharing : true
+prachFrequencyAllocation : 0
+prachSfn : -1
+preambleInitialReceivedTargetPower : -100
+preambleTransMaxCeBr : N6
+prescheduling : true
+primaryPlmnAlarmSuppr : false
+primaryPlmnReserved : false
+primaryPsdOffset : 0
+primaryUpperLayerInd : OFF
+prioAdditionalFreqBandList : <empty>
+prioHpueCapability : NO_PRIORITIZATION
+prsConfigIndex : -1
+prsConfigIndexMapped : 0
+prsMutingPattern : "1111111111111111"
+prsMutingPatternLen : 1
+prsPeriod : PP1280
+prsPowerBoosting : 0
+prsTransmisScheme : ANTENNA_SWITCHING
+ptmCellProfileRef : <empty>
+pucchOverdimensioning : 0
+puschFrequencyAllocationBr : 0
+puschMaxNrOfPrbsPerUe : 100
+puschMaxNumRepCeModeABr : 16
+puschNcpChannelEstWindowSize : LARGE_SIZE
+puschPwrOffset256qam : 10
+puschPwrOffset64qam : 6
+pwrBoostRaMsg2Pdcch : 0
+pwrBoostRaMsg2Pdsch : 0
+pwrBoostRaMsg2TaThr : 65535
+qQualMin : -34
+qQualMinOffset : 0
+qQualMinRsrqCe : 0
+qRxLevMin : -122
+qRxLevMinCe : -140
+qRxLevMinOffset : 1000
+qciTableRef : <empty>
+raBackoffCe0Br : DYNAMIC_BACKOFF
+raBackoffCe1Br : DYNAMIC_BACKOFF
+raObsMaxRange : 16200
+raRange : 0
+raResponseWindowSizeCe0Br : SF80
+raResponseWindowSizeCe1Br : SF120
+rachNoOfAllocationsPerFrame : 10
+rachPreambleRepetition : false
+rachRootSequence : 510
+rateShapingActive : false
+recBeamfrmGainCompPc : true
+reducedConnSetupTimeEnabled : true
+reservedBy : ["SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G09_451C330E9_2,EUtranFreqRelation=1313,EUtranCellRelation=51011-450850-4", "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G09_451C330E9_1,EUtranFreqRelation=1313,EUtranCellRelation=51011-450850-4", "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G21_451C330E21_8,EUtranFreqRelation=1313,EUtranCellRelation=51011-450850-4", "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_5,EUtranFreqRelation=1313,EUtranCellRelation=51011-450850-4", "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G21_451C330E21_7,EUtranFreqRelation=1313,EUtranCellRelation=51011-450850-4"]
+resourcePartitionGroupRef : <empty>
+restartBufMonAtMobility : false
+rrcQueueAdaptivePulling : false
+rrcQueueT300Ratio : 80
+rsrpThresholdPrachCe1Br : -125
+rtpTimeout : 10
+rwrCriticalZoneAllowed : true
+rwrSearchZoneAllowed : true
+rxSinrTargetClpc : 25
+sCellHandlingAtVolteCall : DECONF_SCELLS
+sIntraSearchDeltaP : 0
+schedulingInfoSib1BrMod : OFF
+sdmActive : false
+sectorCarrierRef : ["SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,SectorCarrier=4"]
+servOrPrioIFHoSetupBearer : true
+servOrPrioRedirectEnabled : true
+servOrPrioTriggeredErabAction : REJECT
+servOrPrioTriggeredIFHo : QCI
+siPeriodicity : {siPeriodicitySI1=8, siPeriodicitySI10=64, siPeriodicitySI2=64, siPeriodicitySI3=64, siPeriodicitySI4=64, siPeriodicitySI5=64, siPeriodicitySI6=64, siPeriodicitySI7=64, siPeriodicitySI8=64, siPeriodicitySI9=64}
+siPeriodicityBr : {siPeriodicitySI1=8, siPeriodicitySI10=64, siPeriodicitySI2=64, siPeriodicitySI3=64, siPeriodicitySI4=64, siPeriodicitySI5=64, siPeriodicitySI6=64, siPeriodicitySI7=64, siPeriodicitySI8=64, siPeriodicitySI9=64}
+siSib1RepetitionBr : NORMAL
+siValidityTimeBr : VALIDITY_TIME_3H
+siWindowLength : 10
+sib1AltSchInfo : false
+skipUlPadDynEnabled : false
+skipUlPadPreschedEnabled : false
+spectrumEmissionReqMapping : <empty>
+spifhoDedicatedReportConfig : false
+spifhoSetupBearerAtInitialCtxtSetup : false
+srDetectHighThres : 70
+srProcessingLevel : TWO_SR_FOR_LOW_THRESHOLD_SR_PROCESSING
+srProhibitTimerCe0Br : 3
+srProhibitTimerCe1Br : 3
+srvccDelayTimer : 6000
+ssacBarringForMMTELVideo : {acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64}
+ssacBarringForMMTELVoice : {acBarringFactor=95, acBarringForSpecialAC=[false, false, false, false, false], acBarringTime=64}
+subbandSrsActive : false
+subscriptionRatioHighThresh : 16000
+systemInformationBlock24 : {tReselectionNR=2, tReselectionNRSfHigh=100, tReselectionNRSfMedium=100}
+systemInformationBlock3 : {nCellChangeHigh=16, nCellChangeMedium=16, qHyst=4, qHystSfHigh=0, qHystSfMedium=0, sIntraSearch=1000, sIntraSearchP=62, sIntraSearchQ=0, sIntraSearchv920Active=false, sNonIntraSearch=14, sNonIntraSearchP=0, sNonIntraSearchQ=0, sNonIntraSearchv920Active=false, tEvaluation=240, tHystNormal=240, threshServingLowQ=1000}
+systemInformationBlock6 : {tReselectionUtra=2, tReselectionUtraSfHigh=100, tReselectionUtraSfMedium=100}
+systemInformationBlock7 : {tReselectionGeran=2, tReselectionGeranSfHigh=100, tReselectionGeranSfMedium=100}
+systemInformationBlock8 : {searchWindowSizeCdma=8, tReselectionCdma1xRtt=2, tReselectionCdma1xRttSfHigh=100, tReselectionCdma1xRttSfMedium=100, tReselectionCdmaHrpd=2, tReselectionCdmaHrpdSfHigh=100, tReselectionCdmaHrpdSfMedium=100}
+tPollRetxRrcReleaseDl : 300
+tReorderingAutoConfiguration : true
+tTimeAlignmentTimer : 1920
+tTimeAlignmentTimerBr : 0
+tUeBlockingTimer : 200
+tac : 43025
+threshServingLow : 4
+timeOfLastModification : ""
+tm9Tm4ModeSwitchingEnabled : false
+tm9Tm4ModeSwitchingThresh : 180
+transmissionMode : TRANSMISSION_MODE_4
+ttiBundlingAfterHo : TTI_BUNDLING_ALL_HO_CASES
+ttiBundlingAfterReest : TTI_BUNDLING_ALL_REEST_CASES
+ttiBundlingAtSetup : OFF
+ttiBundlingDataSwitchThres : -100
+ttiBundlingSwitchThres : 90
+ttiBundlingSwitchThresHyst : 10
+ueCapRefreshProhibitMoVoice : false
+ul256qamEnabled : true
+ul64qamEnabled : true
+ulBlerTargetEnabled : true
+ulCatmEssShare : 1000
+ulCellCapCoeff : 2
+ulChannelBandwidth : 20000
+ulCompUserSelSinrHys : 10
+ulCompUserSelSinrThr : 400
+ulConfigurableFrequencyStart : 0
+ulDynUeAdmCtrlOverloadThr : 600
+ulDynUeAdmCtrlPaOverloadThr : 1000
+ulDynUeAdmCtrlRetDiffThr : 500
+ulFrequencyAllocationProportion : 100
+ulHarqTxNoThresToRegion : 0
+ulHarqVolteBlerTarget : 2
+ulHeavyUeDetectEnabled : true
+ulImprovedUeSchedLastEnabled : false
+ulInterferenceManagementActive : true
+ulInterferenceManagementDuration : 5000
+ulInternalChannelBandwidth : 0
+ulInternalChannelFreqBias : FBT_LOWER
+ulPsdLoadThresholdSinrClpc : 2
+ulSCellPriority : 5
+ulSchedCtrlForOocUesEnabled : true
+ulSrsEnable : true
+ulTrigActive : true
+ulTxPsdDistrThr : 40
+ulVolteCovMobDetect : DISABLED
+ulVolteCovMobThr : 5
+uncertAltitude : 0
+uncertSemiMajor : 0
+uncertSemiMinor : 0
+upperLayerAutoConfEnabled : false
+upperLayerAutoConfIndList : <empty>
+upperLayerIndR15Usage : false
+userLabel : "JAW-JB-KWG-2746"
+uttmCtrlForEndcUe : DISABLED_FOR_ENDC_ALLOWED_UE
+validDlBrSubframes : <empty>
+voltePreschedulingEnabled : false
+zzzTemporary101 : -2000000000
+zzzTemporary102 : -2000000000
+zzzTemporary17 : -2000000000
+zzzTemporary22 : -2000000000
+zzzTemporary23 : -2000000000
+zzzTemporary24 : -2000000000
+zzzTemporary29 : -2000000000
+zzzTemporary30 : -2000000000
+zzzTemporary31 : -2000000000
+zzzTemporary32 : -2000000000
+zzzTemporary33 : -2000000000
+zzzTemporary41 : -2000000000
+zzzTemporary42 : -2000000000
+zzzTemporary43 : -2000000000
+zzzTemporary50 : -2000000000
+zzzTemporary57 : -2000000000
+zzzTemporary60 : 1
+zzzTemporary64 : -2000000000
+zzzTemporary65 : -2000000000
+zzzTemporary66 : -2000000000
+zzzTemporary71 : -2000000000
+zzzTemporary72 : -2000000000
+zzzTemporary73 : -2000000000
+zzzTemporary74 : -2000000000
+zzzTemporary75 : ""
+zzzTemporary76 : ""
+zzzTemporary77 : ""
+zzzTemporary79 : -2000000000
+zzzTemporary80 : -2000000000
+zzzTemporary81 : -2000000000
+zzzTemporary82 : -2000000000
+zzzTemporary83 : -2000000000
+zzzTemporary84 : -2000000000
+zzzTemporary85 : -2000000000
+zzzTemporary86 : -2000000000
+zzzTemporary87 : -2000000000
+zzzTemporary88 : ""
+zzzTemporary89 : ""
+zzzTemporary90 : -2000000000
+zzzTemporary91 : -2000000000
+zzzTemporary92 : -2000000000
+zzzTemporary93 : -2000000000
+zzzTemporary95 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1"
+a3MobilityTimerBr : 0
+a3SuspendCsgTimer : 0
+a5B2MobilityTimer : 20000
+a5MobilityTimerBr : 0
+a5MobilityTimerUlTraffic : 2000
+a5TimerUlVolteCovMob : 2000
+a5measInterFHoHigherPrioT : 600
+allowReleaseQci1 : true
+bothA5RsrpRsrqCheck : true
+bothA5RsrpRsrqCheckSpifho : false
+bothB1RscpEcnoCheck : false
+bothB2RscpEcnoCheck : false
+bothInterA3RsrpRsrqCheck : false
+bothIntraA3RsrpRsrqCheck : false
+bothRsrpRsrqCheckUlTraffic : false
+checkA2SearchLevel : true
+csfbHoTargetSearchTimer : 500
+endcB1MeasWindow : 40
+endcInhibitTime : -1
+endcMeasRestartTime : -1
+endcMeasTime : 2000
+excludeInterFreqAtCritical : false
+filterCoefficientEUtraNI : 9
+filterCoefficientEUtraRsrp : 8
+filterCoefficientEUtraRsrq : 11
+filterCoefficientEUtraUlSinrMax : 11
+filterCoefficientEcnoUtra : 4
+filterCoefficientRscpUtra : 4
+inhibitB2RsrqConfig : true
+intraFreqMeasModeBr : PUSCH_SINR_BASED
+lowPrioMeasThresh : 0
+maxMeasB1Endc : 3
+maxMeasCdma20001xRtt : 3
+maxMeasCdma2000eHrpd : 5
+maxMeasEUtraOther : 5
+maxMeasEUtraOtherR12 : 5
+maxMeasGeran : 5
+maxMeasInterFreqEUtra : 7
+maxMeasInterFreqEUtraIncR12 : 20
+maxMeasInterFreqEUtraR12 : 7
+maxMeasNR : 5
+maxMeasUtraFdd : 5
+maxMeasUtraTdd : 5
+maxNoMeasReportsInact : 1
+maxUtranCellsToMeasure : 32
+measQuantityUtraFDD : RSCP
+measScaleFactor : -1
+nrB1MeasAtEndcEnabled : false
+nrB1MeasEnabled : false
+nrB1MeasWindow : 40
+nrB1MobilityTimerLessTtt : 600
+prioOffsetPerQci : <empty>
+sMeasure : 0
+searchEffortTime : 40
+servOrPrioIFHoTimer : 0
+targetA2UlSearchOffset : 20
+ueMeasControlId : "1"
+ueMeasurementsActive : true
+ueMeasurementsActiveBr : false
+ueMeasurementsActiveCDMA2000 : false
+ueMeasurementsActiveCDMA20001xRtt : false
+ueMeasurementsActiveGERAN : true
+ueMeasurementsActiveIF : true
+ueMeasurementsActiveNR : true
+ueMeasurementsActiveUTRAN : true
+ulSinrOffset : 30
+waitForResumeNRMeas : 6000
+waitForStartNRMeas : 6000
+waitStartInterFHoHigherPrio : 6000
+zzzTemporary1 : ""
+zzzTemporary10 : -2000000000
+zzzTemporary11 : -2000000000
+zzzTemporary12 : -2000000000
+zzzTemporary13 : -2000000000
+zzzTemporary14 : -2000000000
+zzzTemporary15 : -2000000000
+zzzTemporary16 : -2000000000
+zzzTemporary17 : -2000000000
+zzzTemporary18 : -2000000000
+zzzTemporary2 : ""
+zzzTemporary21 : -2000000000
+zzzTemporary22 : -2000000000
+zzzTemporary23 : -2000000000
+zzzTemporary24 : -2000000000
+zzzTemporary25 : -2000000000
+zzzTemporary26 : -2000000000
+zzzTemporary27 : -2000000000
+zzzTemporary3 : ""
+zzzTemporary4 : ""
+zzzTemporary5 : -2000000000
+zzzTemporary6 : -2000000000
+zzzTemporary7 : -2000000000
+zzzTemporary8 : -2000000000
+zzzTemporary9 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5UlVolte=1"
+a5Threshold1Rsrp : -44
+a5Threshold1Rsrq : -30
+a5Threshold2Rsrp : -140
+a5Threshold2Rsrq : -195
+hysteresisA5 : 10
+reportConfigA5UlVolteId : "1"
+timeToTriggerA5 : 40
+triggerQuantityA5 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5InterFreqHigherPrio=1"
+a5Threshold1Rsrp : -44
+a5Threshold1Rsrq : -30
+a5Threshold2Rsrp : -140
+a5Threshold2Rsrq : -195
+hysteresisA5 : 10
+reportConfigA5InterFreqHigherPrioId : "1"
+timeToTriggerA5 : 40
+triggerQuantityA5 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2NR=1"
+b2Threshold1Rsrp : -120
+b2Threshold1Rsrq : -170
+b2Threshold2Rsrp : -110
+b2Threshold2Rsrq : -300
+hysteresisB2 : 2
+hysteresisB2RsrqOffset : 0
+mbmsB2ThresholdRsrpOffset : -5
+mbmsB2ThresholdRsrqOffset : -10
+reportConfigB2NRId : "1"
+timeToTriggerB2 : 640
+timeToTriggerB2Rsrq : -1
+triggerQuantityB2 : RSRP
+triggerQuantityB2NR : SS_RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2CdmaUlTrig=1"
+reportConfigB2CdmaUlTrigId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigCsg=1"
+a5Thr1RsrpAltCsgOffset : 0
+a5Thr2RsrpAltCsgOffset : 0
+hysteresisA5AltCsg : 10
+reportConfigCsgId : "1"
+timeToTriggerA5AltCsg : 0
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraIntraFreqPm=1"
+a1ThresholdRsrpPm : -140
+a1ThresholdRsrqPm : -195
+a2ThresholdRsrpPm : -140
+a2ThresholdRsrqPm : -195
+a3OffsetPm : 5
+a3ReportOnLeavePm : false
+a4ThresholdRsrpPm : -140
+a4ThresholdRsrqPm : -195
+a5ThresholdRsrpPm1 : -140
+a5ThresholdRsrpPm2 : -140
+a5ThresholdRsrqPm1 : -195
+a5ThresholdRsrqPm2 : -195
+hysteresisPm : 10
+maxReportCellsPm : 8
+measSelectionEUtraPm : PERIODICAL
+reportAmountPm : 0
+reportConfigEUtraIntraFreqPmId : "1"
+reportIntervalPm : MS_10240
+reportQuantityPm : BOTH
+reservedBy : <empty>
+timeToTriggerPm : 640
+triggerQuantityPm : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5UlTrig=1"
+a5Threshold1Rsrp : -44
+a5Threshold1Rsrq : -30
+a5Threshold2Rsrp : -140
+a5Threshold2Rsrq : -195
+hysteresisA5 : 10
+reportConfigA5UlTrigId : "1"
+reportIntervalA5 : MS_2048
+timeToTriggerA5 : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5Spifho=1"
+a5Threshold1Rsrp : -44
+a5Threshold1Rsrq : -30
+a5Threshold2Rsrp : -110
+a5Threshold2Rsrq : -150
+hysteresisA5 : 10
+reportConfigA5SpifhoId : "1"
+timeToTriggerA5 : 80
+triggerQuantityA5 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraInterFreqPm=1"
+a1ThresholdRsrpPm : -140
+a1ThresholdRsrqPm : -195
+a2ThresholdRsrpPm : -140
+a2ThresholdRsrqPm : -195
+a3OffsetPm : 5
+a3ReportOnLeavePm : false
+a4ThresholdRsrpPm : -140
+a4ThresholdRsrqPm : -195
+a5Threshold1RsrpPm : -140
+a5Threshold1RsrqPm : -195
+a5Threshold2RsrpPm : -140
+a5Threshold2RsrqPm : -195
+a6OffsetPm : 30
+hysteresisPm : 10
+maxReportCellsPm : 4
+measSelectionEUtraPm : PERIODICAL
+reportAmountPm : 0
+reportConfigEUtraInterFreqPmId : "1"
+reportIntervalPm : MIN_1
+reportQuantityPm : BOTH
+reservedBy : <empty>
+timeToTriggerPm : 640
+triggerQuantityPm : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2UtraUlTrig=1"
+b2Threshold2EcNoUtra : -240
+b2Threshold2RscpUtra : -115
+hysteresisB2 : 10
+reportConfigB2UtraUlTrigId : "1"
+reportIntervalB2 : MS_640
+timeToTriggerB2 : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2Geran=1"
+b2Threshold1Rsrp : -125
+b2Threshold1Rsrq : -195
+b2Threshold2Geran : -90
+hysteresisB2 : 10
+hysteresisB2RsrqOffset : 0
+reportConfigB2GeranId : "1"
+timeToTriggerB2 : 160
+timeToTriggerB2Rsrq : -1
+triggerQuantityB2 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB1Utra=1"
+b1ThresholdEcNoUtra : -240
+b1ThresholdRscpUtra : -100
+hysteresisB1 : 10
+reportConfigB1UtraId : "1"
+timeToTriggerB1 : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,PmUeMeasControl=1"
+measGapAllowedPm : false
+pmUeMeasControlId : "1"
+ueMeasInterFreq1 : {}
+ueMeasInterFreq2 : {}
+ueMeasInterRat1 : {}
+ueMeasInterRat2 : {}
+ueMeasIntraFreq1 : {eutranFrequencyRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1313", reportConfigEUtraIntraFreqPmRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraIntraFreqPm=1"}
+ueMeasIntraFreq2 : {eutranFrequencyRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1313", reportConfigEUtraIntraFreqPmRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraIntraFreqPm=2"}
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigSCellA1A2=1"
+a1a2ThresholdRsrp : -126
+a1a2ThresholdRsrpBidir : -140
+a1a2ThresholdRsrq : -165
+hysteresisA1A2Rsrp : 10
+hysteresisA1A2RsrpBidirectional : 20
+hysteresisA1A2Rsrq : 15
+reportConfigSCellA1A2Id : "1"
+timeToTriggerA1 : 40
+timeToTriggerA2 : 512
+triggerQuantityA1A2 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraInterFreqLb=1"
+a5Threshold1Rsrp : -44
+a5Threshold2Rsrp : -108
+a5Threshold2Rsrq : -195
+hysteresisA5 : 10
+reportConfigEUtraInterFreqLbId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraBadCovPrim=1"
+a2ThrRsrpPrimOffsetCeABr : 0
+a2ThresholdRsrpPrim : -116
+a2ThresholdRsrqPrim : -195
+hysteresisA2Prim : 10
+reportConfigEUtraBadCovPrimId : "1"
+timeToTriggerA2Prim : 640
+triggerQuantityA2Prim : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5UlTraffic=1"
+a5Threshold1Rsrp : -44
+a5Threshold1Rsrq : -30
+a5Threshold2Rsrp : -140
+a5Threshold2Rsrq : -195
+hysteresisA5 : 10
+reportConfigA5UlTrafficId : "1"
+timeToTriggerA5 : 640
+triggerQuantityA5 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA1A2Br=1"
+a1a2UlIntraSearchIntraFThr : 340
+hysteresisA1A2UlIntraFSearch : 20
+reportConfigA1A2BrId : "1"
+timeToTriggerA1UlIntraFSearch : 40
+timeToTriggerA2UlIntraFSearch : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraIFA3UlTrig=1"
+a3Offset : 0
+hysteresisA3 : 10
+reportConfigEUtraIFA3UlTrigId : "1"
+reportIntervalA3 : MS_2048
+timeToTriggerA3 : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2GeranUlTrig=1"
+b2Threshold2Geran : -100
+hysteresisB2 : 10
+reportConfigB2GeranUlTrigId : "1"
+reportIntervalB2 : MS_2048
+timeToTriggerB2 : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigCsfbGeran=1"
+hysteresis : 10
+reportConfigCsfbGeranId : "1"
+thresholdGeran : -110
+timeToTrigger : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigSearch=1"
+a1a2SearchThresholdRsrp : -111
+a1a2SearchThresholdRsrq : -165
+a1a2UlSearchThreshold : -150
+a2CriticalOffsetPerPC : <empty>
+a2CriticalThrQci1RsrpOffset : 0
+a2CriticalThrQci1RsrqOffset : 0
+a2CriticalThresholdRsrp : -122
+a2CriticalThresholdRsrq : -195
+a2OuterSearchThrRsrpOffset : 0
+a2OuterSearchThrRsrqOffset : 0
+a2UlCriticalThreshold : -150
+hysteresisA1A2SearchRsrp : 20
+hysteresisA1A2SearchRsrq : 15
+hysteresisA1A2UlSearch : 20
+hysteresisA2CriticalRsrp : 10
+hysteresisA2CriticalRsrq : 150
+hysteresisA2OuterSearchRsrp : 20
+hysteresisA2OuterSearchRsrq : 15
+hysteresisA2UlCritical : 20
+inhibitA2SearchConfig : NOT_INHIBIT
+qciA1A2ThrOffsets : [{a1a2ThrRsrpQciOffset=0, a1a2ThrRsrqQciOffset=0, qciProfileRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default,QciProfilePredefined=qci1"}]
+qciA1A2UlThrOffsets : <empty>
+reportConfigSearchId : "1"
+timeToTriggerA1Search : 640
+timeToTriggerA1SearchRsrq : -1
+timeToTriggerA1UlSearch : 40
+timeToTriggerA2Critical : 640
+timeToTriggerA2CriticalRsrq : -1
+timeToTriggerA2OutSearch : 40
+timeToTriggerA2OutSearchRsrq : -1
+timeToTriggerA2Search : 640
+timeToTriggerA2SearchRsrq : -1
+timeToTriggerA2UlCritical : 40
+timeToTriggerA2UlSearch : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB1Geran=1"
+b1ThresholdGeran : -110
+hysteresisB1 : 10
+reportConfigB1GeranId : "1"
+timeToTriggerB1 : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraIFBestCell=1"
+a3RsrqOffset : 0
+a3offset : 30
+hysteresisA3 : 10
+hysteresisA3RsrqOffset : 0
+reportConfigEUtraIFBestCellId : "1"
+timeToTriggerA3 : 40
+timeToTriggerA3Rsrq : -1
+triggerQuantityA3 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB1NR=1"
+b1ThresholdRsrp : -140
+b1ThresholdRsrq : -435
+hysteresisB1 : 2
+reportConfigB1NRId : "1"
+timeToTriggerB1 : 640
+triggerQuantityB1NR : SS_RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA1A2Endc=1"
+a2OuterSearchThrRsrpOffsetEndc : 0
+a2OuterSearchThrRsrqOffsetEndc : 0
+qciA1A2ThrOffsetsEndc : <empty>
+reportConfigA1A2EndcId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA1Prim=1"
+a1ThrRsrpPrimOffsetCeABr : 0
+a1ThresholdRsrpPrim : -104
+a1ThresholdRsrqPrim : -70
+hysteresisA1Prim : 10
+reportConfigA1PrimId : "1"
+timeToTriggerA1Prim : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA1Sec=1"
+a1ThrRsrpSecOffsetCeABr : 0
+a1ThresholdRsrpSec : -136
+a1ThresholdRsrqSec : -195
+hysteresisA1Sec : 10
+reportConfigA1SecId : "1"
+timeToTriggerA1Sec : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigCsfbUtra=1"
+hysteresis : 10
+reportConfigCsfbUtraId : "1"
+thresholdEcNo : -240
+thresholdRscp : -115
+timeToTrigger : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2CdmaRttUlTrig=1"
+reportConfigB2CdmaRttUlTrigId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5=1"
+a5Threshold1Rsrp : -112
+a5Threshold1Rsrq : -170
+a5Threshold2Rsrp : -107
+a5Threshold2Rsrq : -140
+hysteresisA5 : 10
+hysteresisA5RsrqOffset : 0
+maxReportCellsA5 : 4
+reportConfigA5Id : "1"
+timeToTriggerA5 : 640
+timeToTriggerA5Rsrq : -1
+triggerQuantityA5 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5=1,ReportConfigA5Anr=1"
+a5Threshold1RsrpAnrDelta : 0
+a5Threshold1RsrqAnrDelta : 10
+a5Threshold2RsrpAnrDelta : 1
+a5Threshold2RsrqAnrDelta : 10
+hysteresisA5 : 10
+reportConfigA5AnrId : "1"
+timeToTriggerA5 : 640
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5EndcHo=1"
+a5Threshold1Rsrp : -44
+a5Threshold1Rsrq : -30
+a5Threshold2Rsrp : -108
+a5Threshold2Rsrq : -195
+hysteresisA5 : 10
+maxReportCellsA5 : 4
+reportAmountA5 : 0
+reportConfigA5EndcHoId : "1"
+reportIntervalA5 : MS_480
+reportQuantityA5 : BOTH
+timeToTriggerA5 : 100
+triggerQuantityA5 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5SoftLock=1"
+a5Threshold2Rsrp : -140
+reportConfigA5SoftLockId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigInterRatPm=1"
+b1ThresholdEcNoUtraPm : -240
+b1ThresholdGeranPm : -110
+b1ThresholdRscpUtraPm : -115
+b2Threshold1RsrpPm : -140
+b2Threshold1RsrqPm : -195
+b2Threshold2EcNoUtraPm : -240
+b2Threshold2GeranPm : -110
+b2Threshold2RscpUtraPm : -115
+hysteresisPm : 10
+maxReportCellsPm : 4
+measSelectionInterRatPm : PERIODICAL
+ratSelectionPm : UTRAN
+reportAmountPm : 0
+reportConfigInterRatPmId : "1"
+reportIntervalPm : MIN_1
+reservedBy : <empty>
+timeToTriggerPm : 640
+triggerQuantityPm : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigCsfbCdma2000=1"
+hysteresis : 10
+reportConfigCsfbCdma2000Id : "1"
+thresholdCdma20001xRtt : -75
+timeToTrigger : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigSCellA4=1"
+a4ThresholdRsrp : -140
+a4ThresholdRsrq : -195
+hysteresisA4 : 10
+reportConfigSCellA4Id : "1"
+timeToTriggerA4 : 640
+triggerQuantityA4 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraInterFreqMbms=1"
+a5ThresholdRsrp : -44
+hysteresisA5 : 10
+reportConfigEUtraInterFreqMbmsId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB1GUtra=1"
+b1ThresholdRsrp : -140
+b1ThresholdRsrq : -435
+hysteresisB1 : 0
+maxReportCellsB1 : 4
+reportConfigB1GUtraId : "1"
+reportIntervalB1 : MS_240
+timeToTriggerB1 : 0
+triggerQuantityB1 : SS_RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigSCellA6=1"
+a6offset : 30
+hysteresisA6 : 10
+reportConfigSCellA6Id : "1"
+timeToTriggerA6 : 320
+triggerQuantityA6 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigErabSetup=1"
+a1a2UlPlThr : 130
+a1a2UlSinrThr : 100
+filterCoeffUlSinrMax : 8
+hysteresisA1A2UlPl : 20
+hysteresisA1A2UlSinr : 20
+reportConfigErabSetupId : "1"
+timeToTriggerA1A2UlPl : 40
+timeToTriggerA1A2UlSinr : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigInterEnbUlComp=1"
+a3Offset : -20
+hysteresisA3 : 10
+reportConfigInterEnbUlCompId : "1"
+reportIntervalA3 : MS_1024
+timeToTriggerA3 : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2Utra=1"
+b2Threshold1Rsrp : -120
+b2Threshold1Rsrq : -195
+b2Threshold2EcNoUtra : -240
+b2Threshold2RscpUtra : -85
+hysteresisB2 : 10
+hysteresisB2RsrqOffset : 0
+reportConfigB2UtraId : "1"
+timeToTriggerB2 : 640
+timeToTriggerB2Rsrq : -1
+triggerQuantityB2 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigInterRatLb=1"
+reportConfigInterRatLbId : "1"
+utranB1ThresholdEcNo : -240
+utranB1ThresholdRscp : -24
+utranHysteresisB1 : 10
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA5DlComp=1"
+a5Threshold1Rsrq : -115
+a5Threshold2Rsrq : -185
+reportConfigA5DlCompId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigA4=1"
+a4ThresholdRsrp : -140
+a4ThresholdRsrq : -195
+hysteresisA4 : 10
+reportConfigA4Id : "1"
+timeToTriggerA4 : 640
+triggerQuantityA4 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2Cdma2000=1"
+b2Threshold1Rsrp : -140
+b2Threshold1Rsrq : -195
+b2Threshold2Cdma2000 : -75
+hysteresisB2 : 10
+hysteresisB2RsrqOffset : 0
+reportConfigB2Cdma2000Id : "1"
+timeToTriggerB2 : 640
+timeToTriggerB2Rsrq : -1
+triggerQuantityB2 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraBadCovSec=1"
+a2ThrRsrpSecOffsetCeABr : 0
+a2ThresholdRsrpSec : -140
+a2ThresholdRsrqSec : -195
+hysteresisA2Sec : 10
+reportConfigEUtraBadCovSecId : "1"
+timeToTriggerA2Sec : 640
+triggerQuantityA2Sec : RSRQ
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigB2Cdma20001xRtt=1"
+b2Threshold1Rsrp : -140
+b2Threshold1Rsrq : -195
+b2Threshold2Cdma20001xRtt : -75
+hysteresisB2 : 10
+hysteresisB2RsrqOffset : 0
+reportConfigB2Cdma20001xRttId : "1"
+timeToTriggerB2 : 640
+timeToTriggerB2Rsrq : -1
+triggerQuantityB2 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraIntraFreqPm=2"
+a1ThresholdRsrpPm : -140
+a1ThresholdRsrqPm : -195
+a2ThresholdRsrpPm : -140
+a2ThresholdRsrqPm : -195
+a3OffsetPm : 5
+a3ReportOnLeavePm : false
+a4ThresholdRsrpPm : -140
+a4ThresholdRsrqPm : -195
+a5ThresholdRsrpPm1 : -140
+a5ThresholdRsrpPm2 : -140
+a5ThresholdRsrqPm1 : -195
+a5ThresholdRsrqPm2 : -195
+hysteresisPm : 10
+maxReportCellsPm : 4
+measSelectionEUtraPm : PERIODICAL
+reportAmountPm : 0
+reportConfigEUtraIntraFreqPmId : "2"
+reportIntervalPm : MS_10240
+reportQuantityPm : BOTH
+reservedBy : <empty>
+timeToTriggerPm : 640
+triggerQuantityPm : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraBestCell=1"
+a3offset : 30
+hysteresisA3 : 10
+maxReportCellsA3 : 4
+reportConfigEUtraBestCellId : "1"
+timeToTriggerA3 : 640
+triggerQuantityA3 : RSRP
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigEUtraBestCell=1,ReportConfigEUtraBestCellAnr=1"
+a3offsetAnrDelta : 3
+hysteresisA3 : 30
+reportConfigEUtraBestCellAnrId : "1"
+timeToTriggerA3 : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,UeMeasControl=1,ReportConfigElcA1A2=1"
+a1a2ThresholdRsrp : -134
+hysteresisA1A2Rsrp : 10
+reportConfigElcA1A2Id : "1"
+timeToTriggerA1 : 40
+timeToTriggerA2 : 40
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313"
+a3RsrpFreqOffsetAdjustment : 0
+a3RsrqFreqOffsetAdjustment : 0
+a5OffsetPerPC : <empty>
+a5Thr1RsrpFreqOffset : 0
+a5Thr1RsrqFreqOffset : 0
+a5Thr2RsrpFreqOffset : 0
+a5Thr2RsrqFreqOffset : 0
+allowedMeasBandwidth : 100
+allowedPlmnList : <empty>
+amoAllowed : true
+anrMeasOn : true
+arpPrio : 0
+asmHitRateAddThreshold : 15
+asmHitRateRemoveThreshold : 5
+asmSCellDetection : EXTERNAL_AND_LOCAL
+atoAllowed : false
+blackListEntry : <empty>
+blackListEntryIdleMode : <empty>
+caFreqPriority : 7
+caFreqProportion : 100
+caOffloadingEnabled : true
+caTriggeredRedirectionActive : true
+candNeighborRel : [{cellId=14, enbId=452330, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=94, physicalLayerSubCellId=2, tac=43025}, {cellId=4, enbId=451387, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=41, physicalLayerSubCellId=0, tac=43025}, {cellId=6, enbId=452833, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=107, physicalLayerSubCellId=1, tac=43025}, {cellId=6, enbId=452330, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=91, physicalLayerSubCellId=1, tac=43025}, {cellId=6, enbId=453021, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=14, physicalLayerSubCellId=1, tac=43025}, {cellId=4, enbId=452832, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=102, physicalLayerSubCellId=0, tac=43025}, {cellId=4, enbId=451424, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=59, physicalLayerSubCellId=0, tac=43025}]
+cellReselectionPriority : 7
+cellSleepCovCellMeasOn : true
+cioQci1Enabled : true
+connectedModeMobilityPrio : 7
+connectedModeMobilityPrioBr : 7
+createdBy : OPERATOR
+csgCellTargetIdType : MACRO_ENODEB_ID
+csgPhysCellId : 1000
+csgPhysCellIdRange : 1
+csmUeCapMonitorEnabled : false
+csmUeCapMonitorTime : 60
+eUtraFreqRelProfileSetRef : <empty>
+eUtranFreqRelationId : "1313"
+endcAwareIdleModePriority : 7
+endcHoFreqPriority : 7
+eutranFreqToQciProfileRelation : [{a3RsrpFreqQciOffsetAdjustment=0, a3RsrqFreqQciOffsetAdjustment=0, a5Thr1RsrpFreqQciOffset=0, a5Thr1RsrqFreqQciOffset=0, a5Thr2RsrpFreqQciOffset=0, a5Thr2RsrqFreqQciOffset=0, atoThresh1QciProfileHandling=ALLOWED, atoThresh2QciProfileHandling=ALLOWED, lbA5Threshold2RsrpOffset=0, lbA5Threshold2RsrqOffset=0, lbQciProfileHandling=ALLOWED, qciProfileRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default,QciProfilePredefined=qci1", timeToTriggerA3=-1, timeToTriggerA3Rsrq=-1}]
+eutranFrequencyRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1313"
+hybridCsgPhysCellId : 1000
+hybridCsgPhysCellIdRange : 1
+interFreqHoHigherPrioAllowed : false
+interFreqMeasType : EVENT_A5
+interFreqMeasTypeUlSinr : EVENT_A5
+lastModification : OPERATOR_MODIFICATION
+lbA5Thr1RsrpFreqOffset : 0
+lbActivationThreshold : 0
+lbBnrPolicy : AUTO
+mdtMeasOn : true
+mobilityAction : HANDOVER
+mobilityActionBr : HANDOVER
+neighCellConfig : SAME_MBSFN_SUBFRAMES
+nonPlannedPciAllowedPlmnList : <empty>
+nonPlannedPciCIO : 0
+nonPlannedPciTargetIdType : MACRO_ENODEB_ID
+nonPlannedPhysCellId : 1000
+nonPlannedPhysCellIdRange : 1
+pMax : 1000
+presenceAntennaPort1 : false
+qOffsetFreq : 0
+qQualMin : -34
+qQualMinRsrqCe : 0
+qRxLevMin : -122
+qRxLevMinCe : -140
+sCellPriorityExtCoSited : 7
+sCellPriorityExtNonCoSited : 7
+sCellPriorityLocal : 7
+tReselectionEutra : 2
+tReselectionEutraCe : 2
+tReselectionEutraSfHigh : 100
+tReselectionEutraSfMedium : 100
+threshXHigh : 4
+threshXHighQ : 2
+threshXLow : 0
+threshXLowQ : 0
+timeOfCreation : "2022-03-10 09:50:08"
+timeOfLastModification : "2024-01-30 19:50:52"
+userLabel : <empty>
+voicePrio : 7
+voicePrioBr : 0
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+zzzTemporary4 : -2000000000
+zzzTemporary5 : -2000000000
+zzzTemporary6 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-450854-5"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-450854-5"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-450854,ExternalEUtranCellFDD=51011-450854-5"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : <empty>
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-452832-5"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-452832-5"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-452832,ExternalEUtranCellFDD=51011-452832-5"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : <empty>
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-453065-5"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-453065-5"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453065,ExternalEUtranCellFDD=51011-453065-5"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2025-02-25 11:20:41"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-451366-5"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-451366-5"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-451366,ExternalEUtranCellFDD=51011-451366-5"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2025-02-25 09:22:53"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-451226-5"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : -1
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-451226-5"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-451226,ExternalEUtranCellFDD=51011-451226-5"
+qOffsetCellEUtran : 1
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-12-29 11:52:09"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-453220-6"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 4
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-453220-6"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : OPERATOR_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453220,ExternalEUtranCellFDD=51011-453220-6"
+qOffsetCellEUtran : -4
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-10-20 11:10:24"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-453065-6"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-453065-6"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453065,ExternalEUtranCellFDD=51011-453065-6"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-10-11 12:50:35"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-451366-4"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : -2
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-451366-4"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-451366,ExternalEUtranCellFDD=51011-451366-4"
+qOffsetCellEUtran : 2
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2023-08-29 13:08:32"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-450850-5"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : -3
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-450850-5"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : true
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_5"
+qOffsetCellEUtran : 3
+reportDlActivity : DISABLED
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2022-03-12 10:52:23"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=1313,EUtranCellRelation=51011-452588-6"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : -3
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-452588-6"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-452588,ExternalEUtranCellFDD=51011-452588-6"
+qOffsetCellEUtran : 3
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-02-17 10:09:15"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325"
+a3RsrpFreqOffsetAdjustment : 0
+a3RsrqFreqOffsetAdjustment : 0
+a5OffsetPerPC : <empty>
+a5Thr1RsrpFreqOffset : 0
+a5Thr1RsrqFreqOffset : 0
+a5Thr2RsrpFreqOffset : 0
+a5Thr2RsrqFreqOffset : 0
+allowedMeasBandwidth : 75
+allowedPlmnList : <empty>
+amoAllowed : true
+anrMeasOn : true
+arpPrio : 0
+asmHitRateAddThreshold : 15
+asmHitRateRemoveThreshold : 5
+asmSCellDetection : EXTERNAL_AND_LOCAL
+atoAllowed : false
+blackListEntry : <empty>
+blackListEntryIdleMode : <empty>
+caFreqPriority : 7
+caFreqProportion : 100
+caOffloadingEnabled : true
+caTriggeredRedirectionActive : true
+candNeighborRel : [{cellId=8, enbId=450854, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=63, physicalLayerSubCellId=1, tac=43025}, {cellId=9, enbId=452588, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=78, physicalLayerSubCellId=1, tac=43025}, {cellId=8, enbId=453065, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=26, physicalLayerSubCellId=2, tac=43025}, {cellId=9, enbId=453021, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=14, physicalLayerSubCellId=1, tac=43025}, {cellId=7, enbId=451226, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=69, physicalLayerSubCellId=1, tac=43025}]
+cellReselectionPriority : 6
+cellSleepCovCellMeasOn : true
+cioQci1Enabled : true
+connectedModeMobilityPrio : 6
+connectedModeMobilityPrioBr : 7
+createdBy : OPERATOR
+csgCellTargetIdType : MACRO_ENODEB_ID
+csgPhysCellId : 1000
+csgPhysCellIdRange : 1
+csmUeCapMonitorEnabled : false
+csmUeCapMonitorTime : 60
+eUtraFreqRelProfileSetRef : <empty>
+eUtranFreqRelationId : "325"
+endcAwareIdleModePriority : 7
+endcHoFreqPriority : 7
+eutranFreqToQciProfileRelation : <empty>
+eutranFrequencyRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=325"
+hybridCsgPhysCellId : 1000
+hybridCsgPhysCellIdRange : 1
+interFreqHoHigherPrioAllowed : false
+interFreqMeasType : EVENT_A5
+interFreqMeasTypeUlSinr : EVENT_A5
+lastModification : OPERATOR_MODIFICATION
+lbA5Thr1RsrpFreqOffset : 0
+lbActivationThreshold : 100
+lbBnrPolicy : AUTO
+mdtMeasOn : true
+mobilityAction : HANDOVER
+mobilityActionBr : HANDOVER
+neighCellConfig : SAME_MBSFN_SUBFRAMES
+nonPlannedPciAllowedPlmnList : <empty>
+nonPlannedPciCIO : 0
+nonPlannedPciTargetIdType : MACRO_ENODEB_ID
+nonPlannedPhysCellId : 1000
+nonPlannedPhysCellIdRange : 1
+pMax : 1000
+presenceAntennaPort1 : false
+qOffsetFreq : 0
+qQualMin : 0
+qQualMinRsrqCe : 0
+qRxLevMin : -122
+qRxLevMinCe : -140
+sCellPriorityExtCoSited : 7
+sCellPriorityExtNonCoSited : 7
+sCellPriorityLocal : 7
+tReselectionEutra : 2
+tReselectionEutraCe : 2
+tReselectionEutraSfHigh : 100
+tReselectionEutraSfMedium : 100
+threshXHigh : 4
+threshXHighQ : 2
+threshXLow : 8
+threshXLowQ : 0
+timeOfCreation : "2023-01-23 11:40:14"
+timeOfLastModification : "2024-01-30 19:50:52"
+userLabel : <empty>
+voicePrio : 6
+voicePrioBr : 0
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+zzzTemporary4 : -2000000000
+zzzTemporary5 : -2000000000
+zzzTemporary6 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325,EUtranCellRelation=51011-453220-9"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 4
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-453220-9"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : OPERATOR_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : false
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453220,ExternalEUtranCellFDD=51011-453220-9"
+qOffsetCellEUtran : -4
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-10-20 11:45:44"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325,EUtranCellRelation=51011-450850-8"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : -1
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-450850-8"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : true
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G21_451C330E21_8"
+qOffsetCellEUtran : 1
+reportDlActivity : DISABLED
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2023-01-23 17:16:53"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325,EUtranCellRelation=51011-453065-9"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-453065-9"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : NOT_MODIFIED
+lbBnrAllowed : false
+lbCovIndicated : false
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453065,ExternalEUtranCellFDD=51011-453065-9"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-01-31 06:32:32"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325,EUtranCellRelation=51011-450850-7"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 3
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-450850-7"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : MRO_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : true
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G21_451C330E21_7"
+qOffsetCellEUtran : -3
+reportDlActivity : DISABLED
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2023-01-23 17:16:51"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325,EUtranCellRelation=51011-450787-8"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-450787-8"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : false
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : OPERATOR_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-450787,ExternalEUtranCellFDD=51011-450787-8"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2023-10-25 01:23:50"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=325,EUtranCellRelation=51011-450787-9"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-450787-9"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : false
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : LM_MODIFICATION
+lbBnrAllowed : true
+lbCovIndicated : false
+loadBalancing : NOT_ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-450787,ExternalEUtranCellFDD=51011-450787-9"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2023-10-20 13:05:48"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,CellPerformance=1"
+cellPerformanceId : "1"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : -2000000000
+zzzTemporary4 : -2000000000
+zzzTemporary5 : -2000000000
+zzzTemporary6 : -2000000000
+zzzTemporary7 : -2000000000
+zzzTemporary8 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1"
+allowedPlmnList : <empty>
+altCsfbTargetPrio : 0
+altCsfbTargetPrioEc : 0
+anrMeasOn : true
+b2GeranOffsetPerPC : <empty>
+b2Thr1RsrpGeranFreqOffset : 0
+b2Thr1RsrqGeranFreqOffset : 0
+b2Thr2GeranFreqOffset : -7
+cellReselectionPriority : 1
+connectedModeMobilityPrio : -1
+csFallbackPrio : 5
+csFallbackPrioEC : 6
+geranFreqGroupRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,GeranFreqGroup=1"
+geranFreqGroupRelationId : "1"
+mobilityAction : RELEASE_WITH_REDIRECT
+mobilityActionCsfb : RELEASE_WITH_REDIRECT_NACC
+nccPermitted : "11111111"
+pMaxGeran : 1000
+qOffsetFreq : 0
+qRxLevMin : -115
+qciB2ThrOffsets : [{b2Thr1RsrpGeranFreqQciOffset=6, b2Thr1RsrqGeranFreqQciOffset=0, b2Thr2GeranFreqQciOffset=0, qciProfileRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default,QciProfilePredefined=qci1"}]
+threshXHigh : 4
+threshXLow : 0
+userLabel : <empty>
+voicePrio : -1
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1,GeranCellRelation=51011-24167-50138"
+coverageIndicator : NONE
+createdBy : ANR
+extGeranCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=51011-24167-50138"
+geranCellRelationId : "51011-24167-50138"
+hoSuccLevel : OFF
+isHoAllowed : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+mobilityStatus : {available=true}
+timeOfCreation : "2025-04-22 10:09:42"
+timeOfLastModification : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1,GeranCellRelation=51011-24167-27923"
+coverageIndicator : NONE
+createdBy : ANR
+extGeranCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=51011-24167-27923"
+geranCellRelationId : "51011-24167-27923"
+hoSuccLevel : OFF
+isHoAllowed : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+mobilityStatus : {available=true}
+timeOfCreation : "2025-04-21 21:07:59"
+timeOfLastModification : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1,GeranCellRelation=51011-24167-19715"
+coverageIndicator : NONE
+createdBy : ANR
+extGeranCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=51011-24167-19715"
+geranCellRelationId : "51011-24167-19715"
+hoSuccLevel : OFF
+isHoAllowed : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+mobilityStatus : {available=true}
+timeOfCreation : "2024-11-02 02:34:43"
+timeOfLastModification : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1,GeranCellRelation=51011-24167-57359"
+coverageIndicator : NONE
+createdBy : ANR
+extGeranCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=51011-24167-57359"
+geranCellRelationId : "51011-24167-57359"
+hoSuccLevel : OFF
+isHoAllowed : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+mobilityStatus : {available=true}
+timeOfCreation : "2024-10-22 03:29:30"
+timeOfLastModification : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1,GeranCellRelation=51011-24167-57618"
+coverageIndicator : NONE
+createdBy : ANR
+extGeranCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=51011-24167-57618"
+geranCellRelationId : "51011-24167-57618"
+hoSuccLevel : OFF
+isHoAllowed : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+mobilityStatus : {available=true}
+timeOfCreation : "2024-10-18 09:50:53"
+timeOfLastModification : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,GeranFreqGroupRelation=1,GeranCellRelation=51011-24167-50137"
+coverageIndicator : NONE
+createdBy : ANR
+extGeranCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=51011-24167-50137"
+geranCellRelationId : "51011-24167-50137"
+hoSuccLevel : OFF
+isHoAllowed : true
+isRemoveAllowed : true
+lastModification : NOT_MODIFIED
+mobilityStatus : {available=true}
+timeOfCreation : "2024-10-11 15:33:34"
+timeOfLastModification : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,InstantUplinkAccess=1"
+instantUplinkAccessId : "1"
+iuaCellResourceLimit : 20
+iuaCoscheduleDynamic : false
+iuaDeactPdcchMargin : 3
+iuaDeactTimer : 10
+iuaDuration : 1050
+iuaEnabled : false
+iuaInactivityTimer : 100
+iuaIntervalFdd : INTERVAL_1MS
+iuaIntervalTdd : INTERVAL_1MS
+iuaLoadThreshold : 80
+iuaSinrDeactHyst : 20
+iuaSinrThreshold : 5
+iuaTargetBufferEmptyTime : 4
+iuaTargetBufferSize : 86
+iuaUePrbLimit : 3
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,Etws=1"
+etwsId : "1"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=3774"
+a3RsrpFreqOffsetAdjustment : 0
+a3RsrqFreqOffsetAdjustment : 0
+a5OffsetPerPC : <empty>
+a5Thr1RsrpFreqOffset : 0
+a5Thr1RsrqFreqOffset : 0
+a5Thr2RsrpFreqOffset : 0
+a5Thr2RsrqFreqOffset : 0
+allowedMeasBandwidth : 25
+allowedPlmnList : <empty>
+amoAllowed : true
+anrMeasOn : true
+arpPrio : 0
+asmHitRateAddThreshold : 15
+asmHitRateRemoveThreshold : 5
+asmSCellDetection : EXTERNAL_AND_LOCAL
+atoAllowed : false
+blackListEntry : <empty>
+blackListEntryIdleMode : <empty>
+caFreqPriority : -1
+caFreqProportion : 100
+caOffloadingEnabled : true
+caTriggeredRedirectionActive : true
+candNeighborRel : [{cellId=3, enbId=450787, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=59, physicalLayerSubCellId=1, tac=43025}, {cellId=3, enbId=452588, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=78, physicalLayerSubCellId=1, tac=43025}, {cellId=2, enbId=450854, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=63, physicalLayerSubCellId=1, tac=43025}, {cellId=2, enbId=452832, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=104, physicalLayerSubCellId=2, tac=43025}, {cellId=2, enbId=451919, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=68, physicalLayerSubCellId=2, tac=43025}, {cellId=1, enbId=451387, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=41, physicalLayerSubCellId=0, tac=43025}, {cellId=2, enbId=453065, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=26, physicalLayerSubCellId=2, tac=43025}, {cellId=2, enbId=451366, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=81, physicalLayerSubCellId=1, tac=43025}, {cellId=1, enbId=451424, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=59, physicalLayerSubCellId=0, tac=43025}, {cellId=2, enbId=451226, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=107, physicalLayerSubCellId=0, tac=43025}, {cellId=2, enbId=450787, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=31, physicalLayerSubCellId=2, tac=43025}, {cellId=1, enbId=450854, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=60, physicalLayerSubCellId=2, tac=43025}, {cellId=3, enbId=451616, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=80, physicalLayerSubCellId=2, tac=43025}, {cellId=3, enbId=452833, mcc=510, mnc=11, mncLength=2, mobilityStatusReason=NONE, physicalLayerCellIdGroup=107, physicalLayerSubCellId=1, tac=43025}]
+cellReselectionPriority : 5
+cellSleepCovCellMeasOn : true
+cioQci1Enabled : true
+connectedModeMobilityPrio : 5
+connectedModeMobilityPrioBr : 7
+createdBy : OPERATOR
+csgCellTargetIdType : MACRO_ENODEB_ID
+csgPhysCellId : 1000
+csgPhysCellIdRange : 1
+csmUeCapMonitorEnabled : false
+csmUeCapMonitorTime : 60
+eUtraFreqRelProfileSetRef : <empty>
+eUtranFreqRelationId : "3774"
+endcAwareIdleModePriority : 7
+endcHoFreqPriority : 7
+eutranFreqToQciProfileRelation : [{a3RsrpFreqQciOffsetAdjustment=0, a3RsrqFreqQciOffsetAdjustment=0, a5Thr1RsrpFreqQciOffset=-16, a5Thr1RsrqFreqQciOffset=0, a5Thr2RsrpFreqQciOffset=0, a5Thr2RsrqFreqQciOffset=0, atoThresh1QciProfileHandling=ALLOWED, atoThresh2QciProfileHandling=ALLOWED, lbA5Threshold2RsrpOffset=0, lbA5Threshold2RsrqOffset=0, lbQciProfileHandling=ALLOWED, qciProfileRef="SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default,QciProfilePredefined=qci1", timeToTriggerA3=-1, timeToTriggerA3Rsrq=-1}]
+eutranFrequencyRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=3774"
+hybridCsgPhysCellId : 1000
+hybridCsgPhysCellIdRange : 1
+interFreqHoHigherPrioAllowed : false
+interFreqMeasType : EVENT_A5
+interFreqMeasTypeUlSinr : EVENT_A5
+lastModification : OPERATOR_MODIFICATION
+lbA5Thr1RsrpFreqOffset : 0
+lbActivationThreshold : 3000
+lbBnrPolicy : AUTO
+mdtMeasOn : true
+mobilityAction : HANDOVER
+mobilityActionBr : HANDOVER
+neighCellConfig : SAME_MBSFN_SUBFRAMES
+nonPlannedPciAllowedPlmnList : <empty>
+nonPlannedPciCIO : 0
+nonPlannedPciTargetIdType : MACRO_ENODEB_ID
+nonPlannedPhysCellId : 1000
+nonPlannedPhysCellIdRange : 1
+pMax : 1000
+presenceAntennaPort1 : false
+qOffsetFreq : 0
+qQualMin : -34
+qQualMinRsrqCe : 0
+qRxLevMin : -122
+qRxLevMinCe : -140
+sCellPriorityExtCoSited : 7
+sCellPriorityExtNonCoSited : 7
+sCellPriorityLocal : 7
+tReselectionEutra : 2
+tReselectionEutraCe : 2
+tReselectionEutraSfHigh : 100
+tReselectionEutraSfMedium : 100
+threshXHigh : 4
+threshXHighQ : 2
+threshXLow : 14
+threshXLowQ : 0
+timeOfCreation : "2022-03-10 09:50:08"
+timeOfLastModification : "2024-01-30 19:50:52"
+userLabel : <empty>
+voicePrio : 5
+voicePrioBr : 0
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+zzzTemporary4 : -2000000000
+zzzTemporary5 : -2000000000
+zzzTemporary6 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=3774,EUtranCellRelation=51011-453220-3"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 4
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : ANR
+crsAssistanceInfoPriority : 0
+eUtranCellRelationId : "51011-453220-3"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : true
+lastModification : OPERATOR_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : false
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453220,ExternalEUtranCellFDD=51011-453220-3"
+qOffsetCellEUtran : -4
+reportDlActivity : AUTO
+sCellCandidate : AUTO
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-10-20 11:58:29"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=3774,EUtranCellRelation=51011-453065-3"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-453065-3"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : NOT_MODIFIED
+lbBnrAllowed : false
+lbCovIndicated : false
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-453065,ExternalEUtranCellFDD=51011-453065-3"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2024-02-01 06:25:31"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=3774,EUtranCellRelation=51011-450850-2"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-450850-2"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : OPERATOR_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : true
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G09_451C330E9_2"
+qOffsetCellEUtran : 0
+reportDlActivity : DISABLED
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2022-03-14 09:49:19"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=3774,EUtranCellRelation=51011-451366-1"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-451366-1"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : NOT_MODIFIED
+lbBnrAllowed : false
+lbCovIndicated : false
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=51011-451366,ExternalEUtranCellFDD=51011-451366-1"
+qOffsetCellEUtran : 0
+reportDlActivity : AUTO
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2023-07-30 06:28:51"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,EUtranFreqRelation=3774,EUtranCellRelation=51011-450850-1"
+amoAllowed : true
+amoState : ENABLED
+asmSCellDlOnlyAllowed : DL_UL
+cellIndividualOffsetEUtran : 0
+cellIndividualOffsetEUtranQci1 : 0
+coverageIndicator : NONE
+coverageIndicatorBr : NONE
+createdBy : OPERATOR
+crsAssistanceInfoPriority : 1
+eUtranCellRelationId : "51011-450850-1"
+eranExternalUlCompGroupAvail : DISABLED
+eranUlCompCoopCellAllowed : true
+hoSuccLevel : HIGH
+ieNBUlCompCoopCellAllowed : true
+includeInSystemInformation : true
+incomingLoadBalancing : false
+isHoAllowed : true
+isHoAllowedBr : true
+isRemoveAllowed : false
+lastModification : OPERATOR_MODIFICATION
+lbBnrAllowed : false
+lbCovIndicated : true
+loadBalancing : ALLOWED
+mobilityStatus : {available=true}
+neighborCellRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G09_451C330E9_1"
+qOffsetCellEUtran : 0
+reportDlActivity : DISABLED
+sCellCandidate : ALLOWED
+sCellPriority : 7
+sleepModeCapacityCell : false
+sleepModeCovCellCandidate : AUTO
+sleepModeCoverageCell : false
+timeOfCreation : "2022-03-14 09:49:19"
+zzzTemporary1 : -2000000000
+zzzTemporary2 : -2000000000
+zzzTemporary3 : ""
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,MimoSleepFunction=1"
+mimoSleepFunctionId : "1"
+modelAccuracyThreshold : 90
+portMerging4TxOpMode : PORT_MERGING_4TX_TO_2TX
+portMergingEnabled : true
+portMergingOptionFor4TxTo2Tx : MUTE_ANT_2_AND_3
+sleepEndTime : "05:00"
+sleepMode : MI_SWITCH
+sleepPowerControl : RETAIN_SAME_POWER
+sleepStartTime : "02:00"
+sleepState : DEACTIVATED
+switchDownMonitorDurTimer : 60
+switchDownPrbThreshold : 15
+switchDownRrcConnThreshold : 20
+switchUpMonitorDurTimer : 10
+switchUpPrbThreshold : 30
+switchUpRrcConnThreshold : 30
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G18_451C330E_4,CellSleepFunction=1"
+capCellDlPrbSleepThreshold : 10
+capCellMobReasNotSleepThr : -1
+capCellRrcConnSleepThreshold : 5
+capCellSleepMonitorDurTimer : 15
+capCellSleepProhibitInterval : 24
+cellSleepFunctionId : "1"
+covCellDlPrbWakeUpThresHigh : 40
+covCellDlPrbWakeUpThreshold : 30
+covCellLatestStatsAdaRatio : 60
+covCellRrcConnEstAttMin : 200
+covCellRrcConnWakeUpThresHigh : 50
+covCellRrcConnWakeUpThreshold : 40
+covCellRrcReestWakeUpThr : 100
+covCellUeCtxtRelMin : 200
+covCellUeLostWakeUpThr : 100
+covCellWakeUpMonitorDurTHigh : 1
+covCellWakeUpMonitorDurTimer : 15
+coverageCellDiscovery : false
+isAllowedMsmOnCovCell : true
+isCleanupHitRateTable : true
+movingAvgPeriod : 5
+prbOffloadAdjust : 0
+rrcOffloadAdjust : 0
+sleepEndTime : "16:00"
+sleepEndTimeApplied : "16:00"
+sleepMode : DEACTIVATED
+sleepProhibitStartTime : ""
+sleepStartTime : "17:00"
+sleepStartTimeApplied : "17:00"
+sleepState : DEACTIVATED
+wakeUpLastHoTime : 2
+wakeUpWaitTimer : 0
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,NonPlannedPciDrxProfile=1"
+nonPlannedPciDrxInactivityTimer : PSF2
+nonPlannedPciDrxProfileId : "1"
+nonPlannedPciLongDrxCycle : SF320
+nonPlannedPciOnDurationTimer : PSF1
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,TermPointToMme=MMCBT07"
+additionalCnRef : <empty>
+administrativeState : UNLOCKED
+availabilityStatus : <empty>
+dcnType : DEFAULT
+domainName : ""
+ipAddress1 : "140.213.85.28"
+ipAddress2 : "140.213.85.29"
+ipv6Address1 : "::"
+ipv6Address2 : "::"
+mmeCodeListLTERelated : [136, 137, 138, 139, 140, 141, 142, 143]
+mmeCodeListOtherRATs : [136, 137, 138, 139, 140, 141, 142, 143]
+mmeGIListLTERelated : [36881]
+mmeName : ""
+mmeSupportLegacyLte : true
+mmeSupportNbIoT : false
+operationalState : ENABLED
+relativeMmeCapacity : 127
+servedPlmnListLTERelated : [{mcc=510, mnc=11, mncLength=2}]
+servedPlmnListOtherRATs : [{mcc=510, mnc=11, mncLength=2}, {mcc=510, mnc=8, mncLength=2}]
+termPointToMmeId : "MMCBT07"
+usedIpAddress : "140.213.85.28"
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,SectorCarrier=7"
+antCalModeTddAasDl : 0
+availabilityStatus : [DEPENDENCY_FAILED]
+beamOverlapEirpControl : false
+configuredMaxTxPower : 60000
+digitalTilt : 30
+essScLocalId : 0
+essScPairId : 0
+evmPowerBackoffAllowed : true
+lteBbOnlyBackoffAllowed : false
+maxAllowedEirpPsd : -1
+maximumTransmissionPower : 478
+microSleepTxEnabled : true
+noOfRxAntennas : 2
+noOfTxAntennas : 2
+noOfUsedRxAntennas : 2
+noOfUsedTxAntennas : 2
+operationalState : DISABLED
+pimMitigDlMutingFixed : false
+pimMitigDlMutingPerc : 40
+pimMitigDlMutingPeriod : 8
+pimMitigLevel : MEDIUM
+pimMitigMinIntPwrAutoConfig : 0
+prsEnabled : true
+radioTransmitPerfMode : CAPACITY
+reservedBy : ["SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,UlCompGroup=2", "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,EUtranCellFDD=BD4G21_451C330E21_7"]
+rfBranchRxRef : <empty>
+rfBranchTxRef : <empty>
+sectorCarrierId : "7"
+sectorCarrierType : NORMAL_SECTOR
+sectorFunctionRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,NodeSupport=1,SectorEquipmentFunction=7"
+sectorShape : MACRO
+supportedSectorShapes : <empty>
+supportedTiltRange : <empty>
+supportedVerticalTaperTypes : <empty>
+txPowerPersistentLock : false
+ulForcedTimingAdvanceCommand : 0
+usedDigitalTilt : <empty>
+usedSectorShape : <empty>
+usedVerticalTaperType : <empty>
+verticalTaperType : NO_TAPERING
+virtualComChBeamfrmWtsAmplitude : [0, 0, 0, 0, 0, 0, 0, 0]
+virtualComChBeamfrmWtsPhase : [0, 0, 0, 0, 0, 0, 0, 0]
+virtualSector : false
+zzzTemporary1 : ""
+zzzTemporary2 : ""
+zzzTemporary4 : -2000000000
+zzzTemporary5 : -2000000000
+zzzTemporary6 : -2000000000
+zzzTemporary8 : -2000000000
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,PreschedProfile=1"
+preschedProfileId : "1"
+preschedulingDataSize : 86
+preschedulingDuration : 200
+preschedulingPeriod : 5
+preschedulingSinrThreshold : 20
+reservedBy : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default"
+qciTableId : "default"
+reservedBy : <empty>
+
+
+FDN : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default,SciProfile=sci4"
+absPrioOverride : NO_OVERRIDE
+dlMaxWaitingTime : 0
+dlMinBitRate : 0
+dlRelativePriority : 1
+dlResourceAllocationStrategy : RESOURCE_FAIR
+lessMaxDelayThreshold : 0
+logicalChannelGroupRef : "SubNetwork=ONRM_ROOT_MO,SubNetwork=LTE,MeContext=451C330E_CO,ManagedElement=451C330E_CO,ENodeBFunction=1,QciTable=default,LogicalChannelGroup=1"
+pdb : 0
+priority : 9
+reservedBy : <empty>
+schedulingAlgorithm : RESOURCE_FAIR
+sci : 4
+sciProfileId : "sci4"
+srsAllocationStrategy : DEACTIVATED
+ulMaxWaitingTime : 0
+ulMinBitRate : 0
+ulRelativePriority : 1
+ulResourceAllocationStrategy : RESOURCE_FAIR

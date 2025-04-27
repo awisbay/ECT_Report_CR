@@ -1,0 +1,375 @@
+Logging to file LOG//CNT0032P_9NB01.log
+                        __  __  ____   _____
+                  /\   |  \/  |/ __ \ / ____|
+                 /  \  | \  / | |  | | (___  
+                / /\ \ | |\/| | |  | |\___ \ 
+               / ____ \| |  | | |__| |____) |
+              /_/    \_\_|  |_|\____/|_____/
+              OSS Framework for MoShell-24.0s 
+  Copyright (c) Ericsson AB 2001-2024 - All Rights Reserved
+              
+           
+[1;31mWARNING: [0mthe AMOS version currently running is more than 27 weeks old and is unsupported.
+Please upgrade as soon as possible to the latest released version, available from your local Ericsson support.
+
+$amosrb_pid = 8284
+
+Checking ip contact...OK
+
+HELP MENU            : h
+BASIC MO COMMANDS    : m
+OTHER MO COMMANDS    : n
+OTHER COMMANDS       : o
+PM COMMANDS          : p
+QUIT                 : q
+
+CNT0032P_9NB01> lt  all
+
+250411-09:57:56+0700 10.221.79.102 24.0s  stopfile=/tmp/7832
+Trying rbs's password from uservariable com_password ...OK
+
+Number of Failed login attempt(s): 0
+Last Successful login: 2025-04-07 20:21:47 from 10.11.6.18
+
+$ssh_pid = 10923
+
+Connected to 10.221.79.102 (SubNetwork=RadioNode,MeContext=CNT0032P_9NB01,ManagedElement=CNT0032P_9NB01)
+
+Checking MOM version...MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219
+Parsing MOM (cached): /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/tempfiles/svc-2-scripting_20250411-095749_7263/MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219.xml.cache.gz ..................................................................................................................................................................................................Done.
+Using paramfile /opt/ericsson/amos/moshell/commonjars/pm/PARAM_MSRBS_23.Q2.txt
+Parsing file /opt/ericsson/amos/moshell/commonjars/pm/PARAM_MSRBS_23.Q2.txt ...............................................................................Done.
+Using imomdfile /opt/ericsson/amos/moshell/commonjars/pm/IMOMD_MSRBS_22.Q4.txt
+Using imomfile /opt/ericsson/amos/moshell/commonjars/pm/IMOM_MSRBS_21.Q3.txt
+Connected to 10.221.79.102 (SubNetwork=RadioNode,MeContext=CNT0032P_9NB01,ManagedElement=CNT0032P_9NB01)
+
+Last MO: 19092. Loaded 19092 MOs. Total: 19093 MOs.
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ####LOG_cellstatus
+
+CNT0032P_9NB01> hgetc ^(UtranCell|NRCellDU|EUtranCell.DD|NodeBLocalCell|trx)= ^(operationalState|administrativeState)$
+
+250411-09:58:04+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+.
+MO                         ;administrativeState;operationalState
+NRCellDU=CNT0032H_7NB01_S01;1 (UNLOCKED)       ;1 (ENABLED)     
+NRCellDU=CNT0032H_7NB01_S02;1 (UNLOCKED)       ;1 (ENABLED)     
+NRCellDU=CNT0032H_7NB01_S03;1 (UNLOCKED)       ;1 (ENABLED)     
+NRCellDU=CNT0032H_7NB01_S04;1 (UNLOCKED)       ;1 (ENABLED)     
+..
+MO                              ;administrativeState;operationalState
+EUtranCellFDD=CNT0032G_7NB01_S01;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032G_7NB01_S02;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032G_7NB01_S03;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032G_7NB01_S04;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032P_9NB01_S01;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032P_9NB01_S02;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032P_9NB01_S03;1 (UNLOCKED)       ;1 (ENABLED)     
+EUtranCellFDD=CNT0032P_9NB01_S04;1 (UNLOCKED)       ;1 (ENABLED)     
+
+CNT0032P_9NB01> ####END_LOG_cellstatus
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ####LOG_Alarm
+
+CNT0032P_9NB01> altc
+
+250411-09:58:04+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+
+Collecting Alarms...
+......
+Date;Time;Severity;Object;Problem;Cause;AdditionalText;AckState;AlarmId;NotificationId
+2025-04-09;11:58:05;Minor;ManagedElement=CNT0032P_9NB01,Equipment=1,FieldReplaceableUnit=RRU-8,RfPort=A;VSWR Over Threshold;EquipmentMalfunction;ReturnLoss 6.3 dB, VSWR 2.9, Sensitivity 50% AI:  P:601->602,603;;601;1665
+2025-04-09;11:58:05;Minor;ManagedElement=CNT0032P_9NB01,GNBDUFunction=1,NRCellDU=CNT0032H_7NB01_S04;Service Degraded;PerformanceDegraded; AI:  S:602->601;;602;1666
+2025-04-09;11:58:06;Minor;ManagedElement=CNT0032P_9NB01,ENodeBFunction=1,EUtranCellFDD=CNT0032G_7NB01_S04;Service Degraded;PerformanceDegraded; AI:  S:603->601;;603;1667
+>>> Total: 3 Alarms (0 Critical, 0 Major)
+
+CNT0032P_9NB01> ####END_LOG_Alarm
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ####LOG_bandwidth
+
+CNT0032P_9NB01> hgetc  ^EUtranCell.DD  ^(earfcndl|earfcnul|dlChannelBandwidth|ulChannelBandwidth)$
+
+250411-09:58:05+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+....
+MO                              ;dlChannelBandwidth;earfcndl;earfcnul;ulChannelBandwidth
+EUtranCellFDD=CNT0032G_7NB01_S01;10000             ;9260    ;27260   ;10000             
+EUtranCellFDD=CNT0032G_7NB01_S02;10000             ;9260    ;27260   ;10000             
+EUtranCellFDD=CNT0032G_7NB01_S03;10000             ;9260    ;27260   ;10000             
+EUtranCellFDD=CNT0032G_7NB01_S04;10000             ;9260    ;27260   ;10000             
+EUtranCellFDD=CNT0032P_9NB01_S01;10000             ;3750    ;21750   ;10000             
+EUtranCellFDD=CNT0032P_9NB01_S02;10000             ;3750    ;21750   ;10000             
+EUtranCellFDD=CNT0032P_9NB01_S03;10000             ;3750    ;21750   ;10000             
+EUtranCellFDD=CNT0032P_9NB01_S04;10000             ;3750    ;21750   ;10000             
+
+CNT0032P_9NB01> ####END_LOG_bandwidth
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ####LOG_freqPrioListEUTRA
+
+CNT0032P_9NB01> hgetc RATFreqPrio  freqPrioListEUTRA
+
+250411-09:58:05+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+.
+MO                                  ;arfcnValueEUtranDl;arpPrio;atoAllowed;cellReselectionPriority;connectedModeMobilityPrio;loadBalancingAllowed;offloadAllowed;voicePrio
+SubscriberProfileID=1,RATFreqPrio=14;40790             ;0      ;false     ;7                      ;7                        ;true                ;false         ;7        
+SubscriberProfileID=1,RATFreqPrio=14;40988             ;0      ;false     ;7                      ;7                        ;true                ;false         ;7        
+SubscriberProfileID=1,RATFreqPrio=14;41186             ;0      ;false     ;7                      ;7                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=14;9260              ;0      ;false     ;4                      ;4                        ;true                ;false         ;4        
+SubscriberProfileID=1,RATFreqPrio=14;3750              ;0      ;false     ;4                      ;4                        ;true                ;false         ;4        
+SubscriberProfileID=1,RATFreqPrio=14;1275              ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=14;250               ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=14;9360              ;0      ;false     ;-1000                  ;0                        ;true                ;true          ;-1       
+SubscriberProfileID=1,RATFreqPrio=14;100               ;0      ;false     ;-1000                  ;3                        ;true                ;true          ;-1       
+SubscriberProfileID=1,RATFreqPrio=15;40790             ;0      ;false     ;3                      ;3                        ;false               ;false         ;3        
+SubscriberProfileID=1,RATFreqPrio=15;40988             ;0      ;false     ;3                      ;3                        ;false               ;false         ;3        
+SubscriberProfileID=1,RATFreqPrio=15;41186             ;0      ;false     ;3                      ;3                        ;false               ;false         ;3        
+SubscriberProfileID=1,RATFreqPrio=15;9260              ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=15;3750              ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=15;1275              ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=15;250               ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=15;9360              ;0      ;false     ;-1000                  ;0                        ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=15;100               ;0      ;false     ;-1000                  ;0                        ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=2 ;40790             ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=2 ;40988             ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=2 ;41186             ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=2 ;9260              ;0      ;false     ;4                      ;4                        ;true                ;false         ;4        
+SubscriberProfileID=1,RATFreqPrio=2 ;3750              ;0      ;false     ;4                      ;4                        ;true                ;false         ;4        
+SubscriberProfileID=1,RATFreqPrio=2 ;1275              ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=2 ;250               ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=2 ;9360              ;0      ;false     ;7                      ;4                        ;true                ;true          ;4        
+SubscriberProfileID=1,RATFreqPrio=2 ;100               ;0      ;false     ;7                      ;4                        ;true                ;true          ;4        
+SubscriberProfileID=1,RATFreqPrio=20;40790             ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;40988             ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;41186             ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;9260              ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;9310              ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;9360              ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;3750              ;-1     ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;38852             ;0      ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;39050             ;0      ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;39248             ;0      ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;1575              ;0      ;false     ;-1000                  ;-1                       ;false               ;false         ;-1       
+SubscriberProfileID=1,RATFreqPrio=20;1275              ;0      ;false     ;7                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=20;250               ;0      ;false     ;6                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=20;100               ;0      ;false     ;6                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=20;225               ;0      ;false     ;6                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=5 ;40790             ;0      ;false     ;3                      ;3                        ;false               ;false         ;3        
+SubscriberProfileID=1,RATFreqPrio=5 ;40988             ;0      ;false     ;3                      ;3                        ;false               ;false         ;3        
+SubscriberProfileID=1,RATFreqPrio=5 ;41186             ;0      ;false     ;3                      ;3                        ;false               ;false         ;3        
+SubscriberProfileID=1,RATFreqPrio=5 ;9260              ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=5 ;3750              ;0      ;false     ;5                      ;5                        ;true                ;false         ;5        
+SubscriberProfileID=1,RATFreqPrio=5 ;1275              ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=5 ;250               ;0      ;false     ;6                      ;6                        ;true                ;false         ;6        
+SubscriberProfileID=1,RATFreqPrio=5 ;9360              ;0      ;false     ;4                      ;4                        ;true                ;true          ;4        
+SubscriberProfileID=1,RATFreqPrio=5 ;100               ;0      ;false     ;4                      ;4                        ;true                ;true          ;4        
+
+CNT0032P_9NB01> ####END_LOG_freqPrioListEUTRA
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ####LOG_SleepState
+
+CNT0032P_9NB01> hgetc  CellSleepFunction=1  sleepState
+
+250411-09:58:05+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+.
+MO                                                  ;sleepState     
+EUtranCellFDD=CNT0032G_7NB01_S01,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032G_7NB01_S02,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032G_7NB01_S03,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032G_7NB01_S04,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032P_9NB01_S01,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032P_9NB01_S02,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032P_9NB01_S03,CellSleepFunction=1;0 (DEACTIVATED)
+EUtranCellFDD=CNT0032P_9NB01_S04,CellSleepFunction=1;0 (DEACTIVATED)
+
+CNT0032P_9NB01> ####END_LOG_SleepState
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> $DATE_COLLECT1 = 20250409.2200
+
+$DATE_COLLECT1 = 20250409.2200
+
+CNT0032P_9NB01> $DATE_COLLECT2 = 20250410.0300
+
+$DATE_COLLECT2 = 20250410.0300
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ##KPI 5G
+
+CNT0032P_9NB01> l+o $tempdir/KPI_5G.log
+
+Logging to file: /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/tempfiles/svc-2-scripting_20250411-095749_7263/KPI_5G.log
+
+CNT0032P_9NB01> pmr -s $DATE_COLLECT1 -e $DATE_COLLECT2 -r 403 -tz +7 -o csv
+
+250411-09:58:05+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+Parsing PM cache: /home/shared/dimashar_v53/moshell/jarxml/PMCACHE_MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219.txt.gz ... Done.
+
+..............
+get /rop/A20250410.0400-0415_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0400-0415_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0415-0430_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0415-0430_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0430-0445_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0430-0445_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0445-0500_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0445-0500_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0500-0515_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0500-0515_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0515-0530_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0515-0530_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0530-0545_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0530-0545_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0545-0600_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0545-0600_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0600-0615_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0600-0615_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0615-0630_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0615-0630_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0630-0645_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0630-0645_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0645-0700_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0645-0700_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0700-0715_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0700-0715_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0715-0730_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0715-0730_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0730-0745_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0730-0745_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0745-0800_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0745-0800_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0800-0815_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0800-0815_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0815-0830_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0815-0830_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0830-0845_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0830-0845_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0845-0900_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0845-0900_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0900-0915_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0900-0915_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0915-0930_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0915-0930_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0930-0945_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0930-0945_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.0945-1000_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.0945-1000_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1000-1015_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1000-1015_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1015-1030_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1015-1030_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1030-1045_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1030-1045_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1045-1100_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1045-1100_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1100-1115_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1100-1115_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1115-1130_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1115-1130_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1130-1145_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1130-1145_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1145-1200_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1145-1200_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1200-1215_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1200-1215_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1215-1230_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1215-1230_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1230-1245_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1230-1245_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1245-1300_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1245-1300_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1300-1315_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1300-1315_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1315-1330_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1315-1330_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1330-1345_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1330-1345_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1345-1400_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1345-1400_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1400-1415_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1400-1415_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1415-1430_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1415-1430_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1430-1445_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1430-1445_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1445-1500_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1445-1500_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1500-1515_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1500-1515_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1515-1530_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1515-1530_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1530-1545_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1530-1545_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1545-1600_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1545-1600_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1600-1615_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1600-1615_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1615-1630_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1615-1630_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1630-1645_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1630-1645_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1645-1700_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1645-1700_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1700-1715_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1700-1715_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1715-1730_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1715-1730_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1730-1745_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1730-1745_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1745-1800_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1745-1800_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1800-1815_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1800-1815_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1815-1830_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1815-1830_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1830-1845_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1830-1845_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1845-1900_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1845-1900_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1900-1915_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1900-1915_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1915-1930_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1915-1930_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1930-1945_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1930-1945_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.1945-2000_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.1945-2000_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2000-2015_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2000-2015_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2015-2030_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2015-2030_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2030-2045_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2030-2045_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2045-2100_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2045-2100_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2100-2115_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2100-2115_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2115-2130_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2115-2130_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2130-2145_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2130-2145_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2145-2200_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2145-2200_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2200-2215_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2200-2215_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2215-2230_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2215-2230_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2230-2245_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2230-2245_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2245-2300_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2245-2300_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2300-2315_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2300-2315_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2315-2330_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2315-2330_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2330-2345_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2330-2345_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250410.2345-0000_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250410.2345-0000_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0000-0015_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0000-0015_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0015-0030_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0015-0030_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0030-0045_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0030-0045_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0045-0100_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0045-0100_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0100-0115_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0100-0115_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0115-0130_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0115-0130_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0130-0145_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0130-0145_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0145-0200_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0145-0200_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0200-0215_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0200-0215_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0215-0230_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0215-0230_CNT0032P_9NB01.xml.gz ... OK
+get /rop/A20250411.0230-0245_CNT0032P_9NB01.xml.gz /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/pmfiles/10.221.79.102/rop/A20250411.0230-0245_CNT0032P_9NB01.xml.gz ... OK
+
+No xml files to parse !
+
+CNT0032P_9NB01> l-
+
+Log close: /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/tempfiles/svc-2-scripting_20250411-095749_7263/KPI_5G.log
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> ##KPI LTE
+
+CNT0032P_9NB01> l+o $tempdir/KPI_LTE.log
+
+Logging to file: /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/tempfiles/svc-2-scripting_20250411-095749_7263/KPI_LTE.log
+
+CNT0032P_9NB01> pmr -s $DATE_COLLECT1 -e $DATE_COLLECT2 -r 203 -tz +7 -o csv
+
+250411-09:58:21+0700 10.221.79.102 24.0s MSRBS_NODE_MODEL_23.Q2_608.28193.116_7219 stopfile=/tmp/7832
+
+...........
+
+No xml files to parse !
+
+CNT0032P_9NB01> l-
+
+Log close: /ericsson/log/amos/moshell_logfiles/dimashar_v53/logs_moshell/tempfiles/svc-2-scripting_20250411-095749_7263/KPI_LTE.log
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> l  cat  $tempdir/KPI_5G.log |   egrep 'Acc_EndcSetupScgUeSuccessRate|Ret_EndcUeRelAbnormal;|^Object' | egrep -v '^gzip'    | awk '{print "GREP_KPI_5G;",$0}'
+
+
+CNT0032P_9NB01> l  cat  $tempdir/KPI_LTE.log |   egrep 'Acc_RrcConnSetupSuccRate|Ret_ERabRetainabilityRate;|Acc_InitialErabSetupSuccRate;|^Object' | egrep -v '^gzip'   | awk '{print "GREP_KPI_LTE;",$0}'
+
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+
+CNT0032P_9NB01> 
+Bye...
+Output has been logged to file LOG//CNT0032P_9NB01.log

@@ -1,0 +1,758 @@
+=================================================================================================================
+42                                   ENodeBFunction=1,EUtranCellFDD=SGLJ40A
+=================================================================================================================
+acBarringForCsfb                     Struct{3}
+ >>> 1.acBarringFactor = 95
+ >>> 2.acBarringForSpecialAC = false false false false false
+ >>> 3.acBarringTime = 64
+acBarringForEmergency                false
+acBarringForMoData                   Struct{3}
+ >>> 1.acBarringFactor = 95
+ >>> 2.acBarringForSpecialAC = false false false false false
+ >>> 3.acBarringTime = 64
+acBarringForMoSignalling             Struct{3}
+ >>> 1.acBarringFactor = 95
+ >>> 2.acBarringForSpecialAC = false false false false false
+ >>> 3.acBarringTime = 64
+acBarringInfoPresent                 false
+acBarringPlmnPabEnabled              false
+acBarringPresence                    Struct{17}
+ >>> 1.acBarringForCsfbPresence = 0 (OFF)
+ >>> 2.acBarringForEmergencySpecAcPres = 0 (MANUAL)
+ >>> 3.acBarringForMmtelVideoPresence = 0 (OFF)
+ >>> 4.acBarringForMmtelVoicePresence = 0 (OFF)
+ >>> 5.acBarringForMoDataPresence = 2 (AUTO)
+ >>> 6.acBarringForMoSignPresence = 2 (AUTO)
+ >>> 7.acBarringPrioCsfbSpecAc = PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4
+ >>> 8.acBarringPrioEmergencySpecAc = 0 (PRIORITY0)
+ >>> 9.acBarringPrioMmtelVideoSpecAc = PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4
+ >>> 10.acBarringPrioMmtelVoiceSpecAc = PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4
+ >>> 11.acBarringPrioMoDataSpecAc = PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4
+ >>> 12.acBarringPrioMoSignalingSpecAc = PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4 PRIORITY4
+ >>> 13.acBarringPriorityCsfb = 0 (PRIORITY0)
+ >>> 14.acBarringPriorityMmtelVideo = 0 (PRIORITY0)
+ >>> 15.acBarringPriorityMmtelVoice = 0 (PRIORITY0)
+ >>> 16.acBarringPriorityMoData = 0 (PRIORITY0)
+ >>> 17.acBarringPriorityMoSignaling = 0 (PRIORITY0)
+acBarringSkipForMmtelVideo           false
+acBarringSkipForMmtelVoice           true
+acBarringSkipForSms                  false
+activeEabBitmap                      -1
+activeEabCategory                    3 (OFF)
+activeMtdMeasurements                i[0] =
+activePlmnList                       t[0] =
+activeServiceAreaId                  i[0] =
+adaptiveCfiHoProhibit                2 (HO_PROHIBIT_CFI_1_AND_2)
+additionalFreqBandList               i[0] =
+additionalMultipleNSPmax             t[0] =
+additionalPlmnAlarmSupprList         b[5] = false false false false false
+additionalPlmnList                   t[5] =
+ >>> Struct[0]  has 3 members:
+ >>> 1.mcc = 1
+ >>> 2.mnc = 1
+ >>> 3.mncLength = 2
+ >>> Struct[1]  has 3 members:
+ >>> 1.mcc = 1
+ >>> 2.mnc = 1
+ >>> 3.mncLength = 2
+ >>> Struct[2]  has 3 members:
+ >>> 1.mcc = 1
+ >>> 2.mnc = 1
+ >>> 3.mncLength = 2
+ >>> Struct[3]  has 3 members:
+ >>> 1.mcc = 1
+ >>> 2.mnc = 1
+ >>> 3.mncLength = 2
+ >>> Struct[4]  has 3 members:
+ >>> 1.mcc = 1
+ >>> 2.mnc = 1
+ >>> 3.mncLength = 2
+additionalPlmnReservedList           b[5] = false false false false false
+additionalSpectrumEmissionValues     i[0] =
+additionalUpperLayerIndList          i[5] = 0 0 0 0 0 (OFF OFF OFF OFF OFF)
+adjustCrsPowerEnhEnabled             false
+administrativeState                  0 (LOCKED)
+advCellSupAction                     0 (NO_ACTION)
+advCellSupSensitivity                0
+aiAdvCellSupAction                   0 (NO_ACTION)
+aiAdvCellSupAdjustMimoSleep          true
+aiAdvCellSupMode                     0 (OFF)
+ailgActive                           false
+ailgAutoRestartEnabled               false
+ailgRef
+allocThrPucchFormat1                 50
+allocTimerPucchFormat1               50
+alpha                                10
+altitude                             0
+arpPriorityLevelForSPIFHo            b[16] = false false false false false false false false false false false false false false false false
+assumedUePowerMsg3                   1000
+availabilityStatus                   i[1] = 3 (OFF_LINE)
+bcCdma2000SysTimeType                0 (NONE)
+beamWeightSet16Tr                    0
+beamWeightSet16TrTm9                 0
+blerTargetConfigEnabled              true
+bsrThreshold                         0
+caLockDueToHighLoad                  false
+caPrioThreshold                      400
+catm1SupportEnabled                  false
+catmEnhMpdcchCapEnabled              true
+catmMbmsDlSubframes                  0
+cceDynUeAdmCtrlOverloadThr           950
+cceDynUeAdmCtrlPaOverloadThr         1000
+cceDynUeAdmCtrlRetDiffThr            850
+cellBarred                           1 (NOT_BARRED)
+cellCapMaxCellSubCap                 56240
+cellCapMinCellSubCap                 500
+cellCapMinMaxWriProt                 true
+cellDefinedPrimaryPlmnId             Struct{0}
+cellDownlinkCaCapacity               37500
+cellId                               25
+cellRange                            15
+cellSubscriptionCapacity             37500
+cfraEnable                           true
+changeNotification                   Struct{12}
+ >>> 1.changeNotificationSIB1 = true
+ >>> 2.changeNotificationSIB13 = true
+ >>> 3.changeNotificationSIB15 = true
+ >>> 4.changeNotificationSIB16 = true
+ >>> 5.changeNotificationSIB2 = true
+ >>> 6.changeNotificationSIB24 = true
+ >>> 7.changeNotificationSIB3 = true
+ >>> 8.changeNotificationSIB4 = true
+ >>> 9.changeNotificationSIB5 = true
+ >>> 10.changeNotificationSIB6 = true
+ >>> 11.changeNotificationSIB7 = true
+ >>> 12.changeNotificationSIB8 = true
+channelSelectionSetSize              2
+cioLowerLimitAdjBySon                -3
+cioUpperLimitAdjBySon                4
+clusteredPuschMprFactor              100
+commonCqiPeriodicity                 80
+commonSFAllocList                    t[0] =
+commonSrPeriodicity                  10
+confidence                           100
+covTrigMobErabSetupConfig            0 (DISABLED)
+covTriggerdBlindHoAllowed            false
+covTriggerdBlindHoAllowedBr          true
+crsGain                              0
+csiRsConfigType                      0 (NZP_CSIRS)
+csiRsConfigType8TxFDD                0 (NZP_CSIRS)
+dataInactTimerBr                     Struct{2}
+ >>> 1.dataInactTimerBrCe0 = 0
+ >>> 2.dataInactTimerBrCe1 = 0
+deallocThrPucchFormat1               100
+deallocTimerPucchFormat1             6000
+decoupledPdcchLaEnabled              false
+dedicatedMpdcchCss2Br                false
+diffAdmCtrlFilteringProfRef
+diffPdcchMaxTargetBlerEnabled        true
+diffPdcchMaxTargetBlerThres          -30
+distributedEssInvalidSfDlBr          0
+dl256QamEnabled                      true
+dl256QamStatus                       0 (NOT_SUPPORTED)
+dlBlerTargetEnabled                  true
+dlCatmEssShare                       1000
+dlCatmEssShareSrb0                   60
+dlCchAndRefSigBlockActive            false
+dlCchAndRefSigBoost                  false
+dlChannelBandwidth                   5000
+dlConfigurableFrequencyStart         0
+dlDynUeAdmCtrlOverloadThr            1000
+dlDynUeAdmCtrlPaOverloadThr          1000
+dlDynUeAdmCtrlRetDiffThr             950
+dlFrequencyAllocationProportion      100
+dlInterferenceManagementActive       true
+dlInterferenceManagementDuration     100
+dlInternalChannelBandwidth           0
+dlInternalChannelFreqBias            0 (FBT_LOWER)
+dlMaxRetxRrcReleaseThr               16
+dlPowerChangeRate                    1
+dlPowerRampUpInitRatio               40
+dlPowerRampUpRate                    1
+dlPowerRatio                         100
+dlPowerState                         0 (INVALID)
+dlVolteCovMobDetect                  0 (DISABLED)
+dlVolteCovMobThrHigh                 6
+dlVolteCovMobThrLow                  4
+dlVolteCovMobWindowLen               10
+dominQciFilter                       -1
+drxActive                            true
+drxActiveBr                          1 (CE_LEVEL_0)
+dsrTransMax                          64
+dummyCdmaBandClass                   99 (UNDEFINED_VALUE)
+dynCellSubscrCap                     0
+dynLoadCtrlMinNewConn                1
+dynUeAdmCtrlEnabled                  true
+dynUeAdmCtrlFilterConst              3000
+dynUlResourceAllocEnabled            true
+eCallOverImsSupport                  false
+eDrxAllowed                          false
+eDrxUeType                           0 (LTE_CATM)
+eUlFssSwitchThresh                   20
+eUtranCellFDDId                      SGLJ40A
+eabConfProfileBrRef                  [0] =
+eabPresenceBr                        0 (OFF)
+eabThreshRejRateCatmHighBr           10
+eabThreshRejRateCatmLowBr            5
+eabThreshRejRateLteHighBr            10
+eabThreshRejRateLteLowBr             5
+eabThreshTimeHigh                    120
+eabThreshTimeLow                     120
+earfcndl                             3600
+earfcnul                             21600
+elcEnabled                           false
+elcLongDrxCycle                      0 (SF40)
+emergencyAreaId                      i[15] = -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+enableDrxAwareRlcArq                 false
+enableServiceSpecificHARQ            true
+enableSinrUplinkClpc                 true
+enableUeAssistedAdaptiveDrx          true
+enableUeAssistedSigReduction         true
+endcAllowedPlmnList                  t[0] =
+endcB1MeasGapConfig                  0 (ENABLED)
+endcDistrProfileRef
+endcSetupDlPktAgeThr                 0
+endcSetupDlPktVolThr                 0
+endcSetupUlBsVolThr                  0
+enhVolteOptimizedCa                  true
+eranUlCompUserSelSinrHys             10
+eranUlCompUserSelSinrThr             150
+estCellCapUsableFraction             100
+estimatedE2ERTT                      200
+eutranCellCoverage                   Struct{3}
+ >>> 1.posCellBearing = -1
+ >>> 2.posCellOpeningAngle = -1
+ >>> 3.posCellRadius = 0
+eutranCellPolygon                    t[0] =
+expectedMaxNoOfUsersInCell           -1
+extGUtranCellRef
+externalCdma20001xRttCellRef
+frameStartOffset                     Struct{1}
+ >>> 1.subFrameOffset = 0
+freqBand                             8
+gpsTimeSFN0DecimalSecond             0
+gpsTimeSFN0Seconds                   0
+harqOffsetDl                         3
+harqOffsetUl                         3
+highBasebandPriority                 false
+highSpeedUEActive                    false
+highestSupportedCeLevelBr            0
+hoOptAdjThresholdAbs                 5
+hoOptAdjThresholdAbsQci1             5
+hoOptAdjThresholdPerc                50
+hoOptAdjThresholdPercQci1            50
+hoOptStatNum                         200
+hoOptStatNumQci1                     200
+hoOptStatTime                        24
+hostingDigitalUnit
+hpueCaSwitchHyst                     20
+hpueCaSwitchThres                    -150
+hpueCaSwitchTimeToTrigger            40
+idleModePrioAtReleaseRef
+iflbAbEnabled                        false
+includeDynPttMsrReservations         false
+includeLcgInMacUeThp                 b[4] = false false true true
+initCdma2000SysTimeType              0 (NONE)
+initialBufferSizeDefault             86
+initialBufferSizeMsg5Default         86
+instantDl256QamMode                  2 (DYNAMIC_HOM_MODE)
+interEnbUlCompUserSelSinrHys         10
+interEnbUlCompUserSelSinrThr         100
+interFreqHoHigherPrioEnabled         false
+interFreqHoHigherPrioEndc            true
+interFreqHoHigherPrioRre             true
+interFreqHoHigherPrioSnRel           false
+interferenceThresholdSinrClpc        -110
+ipecGseEnabled                       true
+isDlOnly                             false
+lastModification                     0 (OPERATOR)
+lastSchedLinkAdaptEnabled            true
+latencyLongThreshold                 135
+latitude                             0
+lbActionForEndcUe                    0 (NOT_ALLOWED)
+lbEUtranAcceptOffloadThreshold       50
+lbEUtranCellOffloadCapacity          1000
+lbEUtranTriggerOffloadThreshold      100
+lbTpNonQualFraction                  35
+lbTpRankThreshMin                    -20
+lbUlHeavyUeDetectEnabled             false
+lbUtranOffloadThreshold              100
+lbabBarringPriorityLevel             0 (PRIORITY0)
+lbabDecr                             5
+lbabIncr                             5
+lbabMinBarringFactor                 0
+lbabMinBarringFactorPrio1            0
+lbabMinBarringFactorPrio2            0
+lbabMinBarringFactorPrio3            0
+lbabMinBarringFactorPrio4            0
+lbabPeriod                           120
+lbabThreshRejectRateHigh             200
+lbabThreshRejectRateLow              20
+lbabThreshTimeHigh                   30
+lbabThreshTimeLow                    30
+lbdarCoverageThreshold               15
+lessPrbUsageThreshold                90
+liteMcsReduction                     1 (ON)
+loadBasedBarringFactor               100
+loadBasedCaEnabled                   false
+loadBasedCaMsrThr                    Struct{10}
+ >>> 1.cceUtilThreshHigh = 40
+ >>> 2.cceUtilThreshLow = 20
+ >>> 3.dlPrbUtilThreshHigh = 30
+ >>> 4.dlPrbUtilThreshLow = 20
+ >>> 5.dlSeUtilThreshHigh = 60
+ >>> 6.dlSeUtilThreshLow = 40
+ >>> 7.ulPrbUtilThreshHigh = 30
+ >>> 8.ulPrbUtilThreshLow = 25
+ >>> 9.ulSeUtilThreshHigh = 30
+ >>> 10.ulSeUtilThreshLow = 20
+loadCtrlPrioOfMta                    false
+longitude                            0
+loopingEndcBackoffDuration           100
+loopingEndcConsecFailThr             5
+loopingEndcProtectionEnabled         true
+loopingEndcShortScgSessTime          1500
+macContResTimerCe0Br                 6 (SF480)
+macContResTimerCe1Br                 6 (SF480)
+mappingInfo                          Struct{13}
+ >>> 1.mappingInfoSIB10 = 1 (MAPPED_SI_1)
+ >>> 2.mappingInfoSIB11 = 0 (NOT_MAPPED)
+ >>> 3.mappingInfoSIB12 = 7 (MAPPED_SI_7)
+ >>> 4.mappingInfoSIB13 = 0 (NOT_MAPPED)
+ >>> 5.mappingInfoSIB15 = 0 (NOT_MAPPED)
+ >>> 6.mappingInfoSIB16 = 0 (NOT_MAPPED)
+ >>> 7.mappingInfoSIB24 = 6 (MAPPED_SI_6)
+ >>> 8.mappingInfoSIB3 = 1 (MAPPED_SI_1)
+ >>> 9.mappingInfoSIB4 = 2 (MAPPED_SI_2)
+ >>> 10.mappingInfoSIB5 = 3 (MAPPED_SI_3)
+ >>> 11.mappingInfoSIB6 = 4 (MAPPED_SI_4)
+ >>> 12.mappingInfoSIB7 = 5 (MAPPED_SI_5)
+ >>> 13.mappingInfoSIB8 = 0 (NOT_MAPPED)
+mappingInfoCe                        Struct{13}
+ >>> 1.mappingInfoSIB10 = 0 (NOT_MAPPED)
+ >>> 2.mappingInfoSIB11 = 0 (NOT_MAPPED)
+ >>> 3.mappingInfoSIB12 = 0 (NOT_MAPPED)
+ >>> 4.mappingInfoSIB13 = 0 (NOT_MAPPED)
+ >>> 5.mappingInfoSIB14 = 0 (NOT_MAPPED)
+ >>> 6.mappingInfoSIB15 = 0 (NOT_MAPPED)
+ >>> 7.mappingInfoSIB16 = 0 (NOT_MAPPED)
+ >>> 8.mappingInfoSIB3 = 0 (NOT_MAPPED)
+ >>> 9.mappingInfoSIB4 = 0 (NOT_MAPPED)
+ >>> 10.mappingInfoSIB5 = 0 (NOT_MAPPED)
+ >>> 11.mappingInfoSIB6 = 0 (NOT_MAPPED)
+ >>> 12.mappingInfoSIB7 = 0 (NOT_MAPPED)
+ >>> 13.mappingInfoSIB8 = 0 (NOT_MAPPED)
+maxHarqMsg3Tx                        4
+maxNoClusteredPuschAlloc             0
+maxNumPreambleAttemptCe0Br           0 (N3)
+maxRrcConnectedUsersBr               128
+maxSentCrsAssistCells                8
+maxSoftLockBackoffTime               90
+maxValidSubframeDlBr                 100
+mbsfnSubframesForTm9                 0 (DISABLED)
+measBasedElcControl                  false
+measCellGroupCellRef
+measCellGroupUeRef                   [0] =
+measGapPattEndc                      1
+measGapPattern                       1
+measGapShareSchemeCeABr              0 (SCHEME_ZERO)
+measuredMaxNoOfUsersInCell           0
+mfbiFreqBandIndPrio                  false
+minBestCellHoAttempts                1
+minIntensityLimitForLbab             50
+minInterfSchedEnabled                false
+minInterfUlRegionSize                0
+moVoiceDynUeAdmCtrlPrio              true
+mobCtrlAtPoorCovActive               true
+modificationPeriodCoeff              2
+mpdcchCss2MaxNumRepCe1Br             8
+mpdcchNumRepetitionCeLev0            8
+msg2PdschRepCe1Br                    16
+msg3FrequencyAllocationBr            1
+msg4PdschRepCe1Br                    16
+multipleNSPmaxReqMapping             t[0] =
+nRResCoordPattern                    0 (DEFAULT)
+networkSignallingValue               1 (NS_01)
+networkSignallingValueCa             31 (CA_NS_31)
+noConsecutiveSubframes               2 (SF4)
+noOfCbraPreambles                    52
+noOfChannelSelectionSets             4
+noOfCrsPorts                         -1
+noOfEnhAdptReTxCand                  -1
+noOfMpdcchCss2Br                     1
+noOfMpdcchUessBr                     1
+noOfOuterZoneSrPrbPairs              2
+noOfPreamblesCeLvl0Br                4
+noOfPreamblesCeLvl1Br                3
+noOfPucchCqiUsers                    640
+noOfPucchCqiUsersCalc                160
+noOfPucchFormat1PrbPairsPerFrame     0
+noOfPucchFormat1PrbPairsPerFrameConf  2
+noOfPucchFormat2PrbPairsPerFrame     0
+noOfPucchFormat2PrbPairsPerFrameConf  1
+noOfPucchFormat3PrbPairs             1
+noOfPucchFormat3PrbPairsPerFrame     0
+noOfPucchSrUsers                     320
+noOfPucchSrUsersCalc                 160
+noOfPuschNbBr                        2
+noOfUlImprovedUe                     1
+nrMeasRepBlockedDuringHo             false
+nrMobilityTriggerQciRef              [0] =
+nrOfPreallocatedSrRes                -1
+nrOfTransmissionsSib1                4
+ns05FullBandSchedEnabled             false
+ns05FullBandUsersInCellThres         10
+ns05LowBandSchedMode                 0 (ALWAYS_PROHIBIT)
+ns05PathlossOffsetThres              50
+operationalState                     0 (DISABLED)
+optimizedPdcchCceUtilThres           0
+optimizedPdcchCongestThres           40
+optimizedPdcchDlPrbThres             100
+optimizedPdcchMaxTargetBler          200
+optimizedPdcchUlPrbThres             100
+orientMajorAxis                      0
+otdoaCheckEnabled                    false
+otdoaSuplActive                      false
+outOfCoverageDepth                   1
+outOfCoverageSparseGrantingBsr       4
+outOfCoverageSrTimerPeriodicity      320
+outOfCoverageThreshold               20
+p0ClpcExBadEnabled                   true
+p0ClpcExBadSinrThr                   -3
+p0ClpcExGoodEnabled                  true
+p0ClpcExGoodSinrOffset256Qam         20
+p0ClpcExGoodSinrOffset64Qam          0
+p0ClpcExGoodSinrThr                  21
+pMaxServingCell                      1000
+pZeroNominalPucch                    -117
+pZeroNominalPusch                    -103
+pZeroOffsetUlCa                      6
+pa                                   4 (DB_0)
+paConnCellUeReservations             1
+pagingPriorityDiffThr                0 (OFF)
+pagingPriorityOverloadThr            0 (OFF)
+pb                                   0
+pciConflict                          i[0] =
+pciConflictCell                      t[0] =
+pciConflictUtvmEcgiMeas              true
+pciDetectingCell                     t[0] =
+pdcchCfiMode                         5 (CFI_AUTO_MAXIMUM_3)
+pdcchCongCtrlParamEnabled            false
+pdcchCongestMeasurePeriod            1
+pdcchCovImproveDtx                   false
+pdcchCovImproveQci1                  false
+pdcchCovImproveSrb                   false
+pdcchFlexibleBlerEnabled             true
+pdcchLaGinrMargin                    100
+pdcchMaxTargetBlerHigh               400
+pdcchMaxTargetBlerLow                200
+pdcchOutLoopInitAdjCong              -70
+pdcchOutLoopInitAdjPCellCong         -70
+pdcchOuterLoopInitialAdj             -70
+pdcchOuterLoopInitialAdjPCell        -70
+pdcchOuterLoopInitialAdjVolte        -70
+pdcchOuterLoopUpStep                 8
+pdcchOuterLoopUpStepPCell            6
+pdcchOuterLoopUpStepVolte            6
+pdcchPowerBoostMax                   2
+pdcchPowerBoostMaxCong               0
+pdcchTargetBler                      24
+pdcchTargetBlerAdjStep               5
+pdcchTargetBlerPCell                 22
+pdcchTargetBlerVolte                 6
+pdcchUlDtxWorseThres                 10
+pdschMaxNrOfPrbsPerUe                100
+pdschTypeBGain                       0
+peUeToInterCellPreHyst               10
+peUeToInterCellPreThrUnreg           10
+physicalLayerCellId                  193
+physicalLayerCellIdGroup             64
+physicalLayerSubCellId               1
+pimAggressorCellId
+pimAggressorENodeBId
+pimAvoidManualConfigEnabled          false
+pimAvoidPeriodicPauseEnabled         false
+pimAvoidanceControllerEnabled        false
+pimAvoidanceModeStatus
+pimDetectionRole
+pimDetectionStatus
+pimManualConfigCoefficient           2
+pimMinPrbReservedProportion          10
+pimPowerExcessReference              30
+pimVictimCellId
+pimVictimENodeBId
+pimcuId                              0
+plmn1AbConfProfileRef
+plmn2AbConfProfileRef
+plmn3AbConfProfileRef
+plmnPabBarringPriorityLevel          0 (PRIORITY0)
+prachConfigurationIndex              0
+prachFreqSharing                     false
+prachFrequencyAllocation             0
+prachSfn                             -1
+preambleInitialReceivedTargetPower   -110
+preambleTransMaxCeBr                 3 (N6)
+prescheduling                        true
+primaryPlmnAlarmSuppr                false
+primaryPlmnReserved                  false
+primaryPsdOffset                     0
+primaryUpperLayerInd                 1 (ON)
+prioAdditionalFreqBandList           i[0] =
+prioHpueCapability                   0 (NO_PRIORITIZATION)
+prsConfigIndex                       -1
+prsConfigIndexMapped                 0
+prsMutingPattern
+prsMutingPatternLen                  1
+prsPeriod                            3 (PP1280)
+prsPowerBoosting                     0
+prsTransmisScheme                    0 (ANTENNA_SWITCHING)
+ptmCellProfileRef
+pucchOverdimensioning                0
+puschFrequencyAllocationBr           0
+puschMaxNrOfPrbsPerUe                100
+puschMaxNumRepCeModeABr              16
+puschNcpChannelEstWindowSize         0 (NORMAL_SIZE)
+puschPwrOffset256qam                 10
+puschPwrOffset64qam                  6
+pwrBoostRaMsg2Pdcch                  0
+pwrBoostRaMsg2Pdsch                  0
+pwrBoostRaMsg2TaThr                  65535
+qQualMin                             -34
+qQualMinOffset                       0
+qQualMinRsrqCe                       0
+qRxLevMin                            -126
+qRxLevMinCe                          -140
+qRxLevMinOffset                      1000
+qciTableRef                          QciTable=default
+raBackoffCe0Br                       13 (DYNAMIC_BACKOFF)
+raBackoffCe1Br                       13 (DYNAMIC_BACKOFF)
+raObsMaxRange
+raRange                              0
+raResponseWindowSizeCe0Br            2 (SF80)
+raResponseWindowSizeCe1Br            3 (SF120)
+rachNoOfAllocationsPerFrame          10
+rachPreambleRepetition               false
+rachRootSequence                     540
+rateShapingActive                    false
+recBeamfrmGainCompPc                 true
+reducedConnSetupTimeEnabled          true
+reservedBy                           [14] =
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SPLJ40A,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SPLJ40B,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SPLJ40C,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40A,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40B,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40C,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SGLJ40B,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SGLJ40C,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40H,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40I,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40K,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40T,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40U,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+ >>> reservedBy = ENodeBFunction=1,EUtranCellFDD=SXLJ40V,EUtranFreqRelation=3600,EUtranCellRelation=SGLJ40A
+resourcePartitionGroupRef            ResourcePartitionGroup=SpidShared
+restartBufMonAtMobility              false
+rrcQueueAdaptivePulling              false
+rrcQueueT300Ratio                    80
+rsrpThresholdPrachCe1Br              -125
+rtpTimeout                           10
+rwrCriticalZoneAllowed               true
+rwrSearchZoneAllowed                 false
+rxSinrTargetClpc                     25
+sCellHandlingAtVolteCall             1 (DECONF_SCELLS)
+sIntraSearchDeltaP                   0
+schedulingInfoSib1BrMod              0 (OFF)
+sdmActive                            false
+sectorCarrierRef                     [1] =
+ >>> sectorCarrierRef = ENodeBFunction=1,SectorCarrier=SGLJ40A
+servOrPrioIFHoSetupBearer            true
+servOrPrioRedirectEnabled            true
+servOrPrioTriggeredErabAction        3 (REJECT)
+servOrPrioTriggeredIFHo              0 (QCI)
+siPeriodicity                        Struct{10}
+ >>> 1.siPeriodicitySI1 = 8
+ >>> 2.siPeriodicitySI10 = 64
+ >>> 3.siPeriodicitySI2 = 64
+ >>> 4.siPeriodicitySI3 = 64
+ >>> 5.siPeriodicitySI4 = 64
+ >>> 6.siPeriodicitySI5 = 64
+ >>> 7.siPeriodicitySI6 = 64
+ >>> 8.siPeriodicitySI7 = 64
+ >>> 9.siPeriodicitySI8 = 64
+ >>> 10.siPeriodicitySI9 = 64
+siPeriodicityBr                      Struct{10}
+ >>> 1.siPeriodicitySI1 = 8
+ >>> 2.siPeriodicitySI10 = 64
+ >>> 3.siPeriodicitySI2 = 64
+ >>> 4.siPeriodicitySI3 = 64
+ >>> 5.siPeriodicitySI4 = 64
+ >>> 6.siPeriodicitySI5 = 64
+ >>> 7.siPeriodicitySI6 = 64
+ >>> 8.siPeriodicitySI7 = 64
+ >>> 9.siPeriodicitySI8 = 64
+ >>> 10.siPeriodicitySI9 = 64
+siSib1RepetitionBr                   0 (NORMAL)
+siValidityTimeBr                     0 (VALIDITY_TIME_3H)
+siWindowLength                       10
+sib1AltSchInfo                       true
+skipUlPadDynEnabled                  false
+skipUlPadPreschedEnabled             false
+spectrumEmissionReqMapping           t[0] =
+spifhoDedicatedReportConfig          false
+spifhoSetupBearerAtInitialCtxtSetup  false
+srDetectHighThres                    70
+srProcessingLevel                    0 (NO_ADDITIONAL_SR_NEEDED)
+srProhibitTimerCe0Br                 3
+srProhibitTimerCe1Br                 3
+srvccDelayTimer                      0
+ssacBarringForMMTELVideo             Struct{3}
+ >>> 1.acBarringFactor = 95
+ >>> 2.acBarringForSpecialAC = false false false false false
+ >>> 3.acBarringTime = 64
+ssacBarringForMMTELVoice             Struct{3}
+ >>> 1.acBarringFactor = 95
+ >>> 2.acBarringForSpecialAC = false false false false false
+ >>> 3.acBarringTime = 64
+subbandSrsActive                     false
+subscriptionRatioHighThresh          16000
+systemInformationBlock24             Struct{3}
+ >>> 1.tReselectionNR = 2
+ >>> 2.tReselectionNRSfHigh = 100
+ >>> 3.tReselectionNRSfMedium = 100
+systemInformationBlock3              Struct{16}
+ >>> 1.nCellChangeHigh = 16
+ >>> 2.nCellChangeMedium = 16
+ >>> 3.qHyst = 4
+ >>> 4.qHystSfHigh = 0
+ >>> 5.qHystSfMedium = 0
+ >>> 6.sIntraSearch = 58
+ >>> 7.sIntraSearchP = 62
+ >>> 8.sIntraSearchQ = 0
+ >>> 9.sIntraSearchv920Active = false
+ >>> 10.sNonIntraSearch = 8
+ >>> 11.sNonIntraSearchP = 0
+ >>> 12.sNonIntraSearchQ = 0
+ >>> 13.sNonIntraSearchv920Active = false
+ >>> 14.tEvaluation = 240
+ >>> 15.threshServingLowQ = 1000
+ >>> 16.tHystNormal = 240
+systemInformationBlock6              Struct{3}
+ >>> 1.tReselectionUtra = 2
+ >>> 2.tReselectionUtraSfHigh = 100
+ >>> 3.tReselectionUtraSfMedium = 100
+systemInformationBlock7              Struct{3}
+ >>> 1.tReselectionGeran = 2
+ >>> 2.tReselectionGeranSfHigh = 100
+ >>> 3.tReselectionGeranSfMedium = 100
+systemInformationBlock8              Struct{7}
+ >>> 1.searchWindowSizeCdma = 8
+ >>> 2.tReselectionCdma1xRtt = 2
+ >>> 3.tReselectionCdma1xRttSfHigh = 100
+ >>> 4.tReselectionCdma1xRttSfMedium = 100
+ >>> 5.tReselectionCdmaHrpd = 2
+ >>> 6.tReselectionCdmaHrpdSfHigh = 100
+ >>> 7.tReselectionCdmaHrpdSfMedium = 100
+tPollRetxRrcReleaseDl                80
+tReorderingAutoConfiguration         true
+tTimeAlignmentTimer                  0
+tTimeAlignmentTimerBr                0
+tUeBlockingTimer                     200
+tac                                  47222
+tandemPimcuId                        0
+threshServingLow                     2
+timeOfLastModification
+tm9Tm4ModeSwitchingEnabled           false
+tm9Tm4ModeSwitchingThresh            180
+transmissionMode                     4 (TRANSMISSION_MODE_4)
+ttiBundlingAfterHo                   1 (TTI_BUNDLING_ALL_HO_CASES)
+ttiBundlingAfterReest                1 (TTI_BUNDLING_ALL_REEST_CASES)
+ttiBundlingAtSetup                   0 (OFF)
+ttiBundlingDataSwitchThres           -100
+ttiBundlingSwitchThres               160
+ttiBundlingSwitchThresHyst           40
+ueCapRefreshProhibitMoVoice          false
+ul256qamEnabled                      true
+ul64qamEnabled                       true
+ulBlerTargetEnabled                  true
+ulCatmEssShare                       1000
+ulCellCapCoeff                       0
+ulChannelBandwidth                   5000
+ulCompUserSelSinrHys                 10
+ulCompUserSelSinrThr                 150
+ulConfigurableFrequencyStart         0
+ulDynUeAdmCtrlOverloadThr            1000
+ulDynUeAdmCtrlPaOverloadThr          1000
+ulDynUeAdmCtrlRetDiffThr             950
+ulFrequencyAllocationProportion      100
+ulHarqTxNoThresToRegion              0
+ulHarqVolteBlerTarget                2
+ulHeavyUeDetectEnabled               true
+ulImprovedUeSchedLastEnabled         true
+ulInterferenceManagementActive       true
+ulInterferenceManagementDuration     5000
+ulInternalChannelBandwidth           0
+ulInternalChannelFreqBias            0 (FBT_LOWER)
+ulPsdLoadThresholdSinrClpc           2
+ulSCellPriority                      5
+ulSchedCtrlForOocUesEnabled          true
+ulSrsEnable                          false
+ulTrigActive                         true
+ulTxPsdDistrThr                      20
+ulVolteCovMobDetect                  0 (DISABLED)
+ulVolteCovMobThr                     5
+uncertAltitude                       0
+uncertSemiMajor                      0
+uncertSemiMinor                      0
+upperLayerAutoConfEnabled            false
+upperLayerAutoConfIndList            b[0] =
+upperLayerIndR15Usage                false
+userLabel                            SGLJ40A
+uttmCtrlForEndcUe                    1 (DISABLED_FOR_ENDC_ALLOWED_UE)
+validDlBrSubframes                   i[0] =
+voltePreschedulingEnabled            true
+zzzTemporary101                      -2000000000
+zzzTemporary102                      -2000000000
+zzzTemporary17                       -2000000000
+zzzTemporary22                       -2000000000
+zzzTemporary23                       -2000000000
+zzzTemporary24                       -2000000000
+zzzTemporary29                       -2000000000
+zzzTemporary30                       -2000000000
+zzzTemporary31                       -2000000000
+zzzTemporary32                       -2000000000
+zzzTemporary33                       -2000000000
+zzzTemporary41                       -2000000000
+zzzTemporary42                       -2000000000
+zzzTemporary43                       -2000000000
+zzzTemporary50                       -2000000000
+zzzTemporary57                       -2000000000
+zzzTemporary60                       -2000000000
+zzzTemporary64                       -2000000000
+zzzTemporary65                       -2000000000
+zzzTemporary66                       -2000000000
+zzzTemporary71                       -2000000000
+zzzTemporary72                       -2000000000
+zzzTemporary73                       -2000000000
+zzzTemporary74                       -2000000000
+zzzTemporary75
+zzzTemporary76
+zzzTemporary77
+zzzTemporary79                       -2000000000
+zzzTemporary80                       -2000000000
+zzzTemporary81                       -2000000000
+zzzTemporary82                       -2000000000
+zzzTemporary83                       -2000000000
+zzzTemporary84                       -2000000000
+zzzTemporary85                       -2000000000
+zzzTemporary86                       -2000000000
+zzzTemporary87                       -2000000000
+zzzTemporary88
+zzzTemporary89
+zzzTemporary90                       -2000000000
+zzzTemporary91                       -2000000000
+zzzTemporary92                       -2000000000
+zzzTemporary93                       -2000000000
+zzzTemporary95                       -2000000000
+=================================================================================================================
+Total: 1 MOs
