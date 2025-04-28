@@ -1,0 +1,34 @@
+flow nya bang Ananda Septian A
+ 
+lpr ExternalGNodeBFunction=AYT0170Q_9NB03         
+get ExternalGNodeBFunction=AYT8521Q_9NB03,ExternalGUtranCell= reserved
+ 
+=================================================================================================================
+MO                                                      Attribute         Value
+=================================================================================================================
+GUtraNetwork=1,ExternalGNodeBFunction=AYT8521Q_9NB03,ExternalGUtranCell=5205-0000000000112853-1041 reservedBy        [4] = 
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S01,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1041
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S02,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1041
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S03,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1041
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S04,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1041
+GUtraNetwork=1,ExternalGNodeBFunction=AYT8521Q_9NB03,ExternalGUtranCell=5205-0000000000112853-1042 reservedBy        [4] = 
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S01,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1042
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S02,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1042
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S03,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1042
+>>> reservedBy = ENodeBFunction=1,EUtranCellFDD=AYT0171E_2NB05_S04,GUtranFreqRelation=154570-15,GUtranCellRelation=5205-0000000000112853-1042
+GUtraNetwork=1,ExternalGNodeBFunction=AYT8521Q_9NB03,ExternalGUtranCell=5205-0000000000112853-1043 reservedBy        [0] = 
+=================================================================================================================
+ 
+ 
+rdel GUtranCellRelation=5205-0000000000112853
+bl ExternalGNodeBFunction=AYT8521Q_9NB03,TermPointToGNB=
+rdel ExternalGNodeBFunction=AYT0170Q_9NB03
+ 
+===
+
+if (re.search(r"(DEL_ExternalGNodeBFunction_PLMN_Cleanup).*?$", selected_file)):
+
+LIS ISMA ISMAYA
+Bank Mandiri
+1640004133395
+
